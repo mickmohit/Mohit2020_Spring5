@@ -1,0 +1,18 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import com.example.demo.entity.User;
+
+public interface RedisUserService {
+
+List<User> findAllUsers();
+	
+	User findById(String id);
+	 
+    void save(User user);
+ 
+    void delete(String id);
+ 
+    void update(User user);
+}

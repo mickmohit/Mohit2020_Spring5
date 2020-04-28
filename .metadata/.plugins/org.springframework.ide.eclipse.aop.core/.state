@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="EasyNotes"/>
+<aop-project name="springBoot-redis-PubSub"/>
+<aop-project name="spring-rest-security-demo"/>
+<aop-project name="jpa-one-to-one-demo"/>
+<aop-project name="demo"/>
+<aop-project name="jpa_embeddable_Embedded_demo"/>
+<aop-project name="jpa_composite_primary_key_demo"/>
+<aop-project name="jpa_elementCollection_CollectionTable_demo"/>
+<aop-project name="springBoot-redis-cache"/>
+<aop-project name="MongoNotes"/>
+<aop-project name="jpa_many_to_many_demo"/>
+<aop-project name="jpa_one_to_many_demo"/>
+<aop-project name="spring-security-with-db"/>
+</aop-reference-model>

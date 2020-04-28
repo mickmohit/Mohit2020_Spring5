@@ -1,0 +1,14 @@
+package com.example.demo.validator;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+public class AuthorValidator implements ConstraintValidator<Author, String> {
+
+	@Override
+	public boolean isValid(String value, ConstraintValidatorContext context) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

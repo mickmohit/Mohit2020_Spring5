@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=spring-rest-security-demo/C:\/Mohit_Personal\/Spring Softwares\/Personal_Maven_Repo\/.m2\/repository\/jakarta\/validation\/jakarta.validation-api\/2.0.2\/jakarta.validation-api-2.0.2.jar&lt;javax.validation(ConstraintValidator.class[ConstraintValidator" modifiers="1537" timestamp="1586012194740"/>
+<typeInfo handle="=springBoot-redis-cache/src\/main\/java&lt;com.example.demo.service{RedisUserService.java[RedisUserService" modifiers="513" timestamp="1587903705466"/>
+<typeInfo handle="=springBoot-redis-PubSub/C:\/Mohit_Personal\/Spring Softwares\/Personal_Maven_Repo\/.m2\/repository\/org\/springframework\/data\/spring-data-redis\/2.2.6.RELEASE\/spring-data-redis-2.2.6.RELEASE.jar&lt;org.springframework.data.redis.connection(MessageListener.class[MessageListener" modifiers="1537" timestamp="1587881361242"/>
+<typeInfo handle="=springBoot-redis-PubSub/src\/main\/java&lt;com.example.demo.publisher{CustomerInfoPublisher.java[CustomerInfoPublisher" modifiers="513" timestamp="1587905687229"/>
+<typeInfo handle="=springBoot-redis-PubSub/src\/main\/java&lt;com.example.demo.repository{RedisRepository.java[RedisRepository" modifiers="513" timestamp="1587906246355"/>
+<typeInfo handle="=spring-security-with-db/C:\/Mohit_Personal\/Spring Softwares\/Personal_Maven_Repo\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.2.2.RELEASE\/spring-security-core-5.2.2.RELEASE.jar&lt;org.springframework.security.core.userdetails(UserDetailsService.class[UserDetailsService" modifiers="1537" timestamp="1587295001783"/>
+<typeInfo handle="=spring-security-with-db/C:\/Mohit_Personal\/Spring Softwares\/Personal_Maven_Repo\/.m2\/repository\/org\/springframework\/security\/spring-security-core\/5.2.2.RELEASE\/spring-security-core-5.2.2.RELEASE.jar&lt;org.springframework.security.provisioning(UserDetailsManager.class[UserDetailsManager" modifiers="1537" timestamp="1587295001783"/>
+<typeInfo handle="=jpa_many_to_many_demo/C:\/Mohit_Personal\/Spring Softwares\/Personal_Maven_Repo\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.6.RELEASE\/spring-data-jpa-2.2.6.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1586760261161"/>
+</typeInfoHistroy>

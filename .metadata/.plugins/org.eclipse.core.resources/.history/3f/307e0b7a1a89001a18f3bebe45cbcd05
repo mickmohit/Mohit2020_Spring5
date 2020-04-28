@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/app.css"rel="stylesheet"
+	type="text/css"></link>
+ <title>Registration Form</title>
+</head>
+<body class="security-app">
+	<div class="details">
+	<h2>Spring Security - JDBC Authentication</h2>
+	</div>	
+
+            <form:form id="regForm" modelAttribute="users" action="registrationProcess" method="post">
+                <table align="center">
+                    <tr>
+                        	<td><label>First Name</label></td>
+                        <td>
+                            <form:input path="name" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label >Password</label>
+                        </td>
+                        <td>
+                            <form:password path="password" />
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td>
+                            <label >LastName</label>
+                        </td>
+                        <td>
+                            <form:input path="lastname"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label >Email</label>
+                        </td>
+                        <td>
+                            <form:input path="email"  />
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td></td>
+                        <td>
+                            <form:button id="register" name="register">Register</form:button>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="home.jsp">Home</a>
+                        </td>
+                    </tr>
+                </table>
+            </form:form>
+        </body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CommentController.java&apos; to &apos;jpa_one_to_many_demo/src/main/java/com.example.demo.controller&apos;&#x0D;&#x0A;- Original project: &apos;jpa-one-to-one-demo&apos;&#x0D;&#x0A;- Destination element: &apos;jpa_one_to_many_demo/src/main/java/com.example.demo.controller&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.controller.CommentController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=jpa_one_to_many_demo/src\/main\/java&lt;com.example.demo.controller" element1="/src\/main\/java&lt;com.example.demo.controller{CommentController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1587386081758" units="1" version="1.0"/>
+</session>

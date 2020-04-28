@@ -1,0 +1,11 @@
+package com.example.demo.publisher;
+
+public class CustomerInfoPublisherImpl implements CustomerInfoPublisher {
+
+	@Override
+	public void publish() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

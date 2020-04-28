@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="localhost" configuration-id="/Servers/localhost - Pivotal tc Server Developer Edition-config" deployDir="wtpwebapps" hostname="localhost" id="localhost - Pivotal tc Server Developer Edition" name="localhost - Pivotal tc Server Developer Edition" runtime-id="Pivotal tc Server Developer Edition (Runtime) v4.0" saveSeparateContextFiles="true" server-type="com.pivotal.server.tc.90" server-type-id="com.pivotal.server.tc.90" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="0"/>
+</servers>

@@ -1,0 +1,39 @@
+package com.example.demo.repository;
+
+import java.util.Map;
+
+import com.example.demo.entity.Customer;
+
+public class RedisRepositoryImpl implements RedisRepository {
+
+	@Override
+	public Map<String, Customer> findAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer findById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(String id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Customer customer) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
