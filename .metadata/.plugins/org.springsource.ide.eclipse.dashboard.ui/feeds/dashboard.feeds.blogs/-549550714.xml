@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-04-28T13:43:53Z</updated>
+  <updated>2020-04-28T13:43:00Z</updated>
   <entry>
     <title>Spring Data Neumann RC2, Moore SR7, and Lovelace SR17</title>
     <link rel="alternate" href="https://spring.io/blog/2020/04/28/spring-data-neumann-rc2-moore-sr7-and-lovelace-sr17" />
@@ -14,18 +14,18 @@
       <name>Mark Paluch</name>
     </author>
     <id>tag:spring.io,2020-04-28:4045</id>
-    <updated>2020-04-28T13:43:53Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team, I&amp;rsquo;m pleased to announce Spring Data releases &lt;code&gt;Neumann RC2&lt;/code&gt;, &lt;code&gt;Moore SR7&lt;/code&gt;, and &lt;code&gt;Lovelace SR17&lt;/code&gt;. This triple-feature is built on top of today&amp;rsquo;s &lt;a href="https://spring.io/blog/2020/04/28/spring-framework-5-2-6-5-1-15-5-0-17-and-4-3-27-available-now"&gt;Spring Framework releases &lt;code&gt;5.2.6&lt;/code&gt; (&lt;code&gt;Neumann&lt;/code&gt; and &lt;code&gt;Moore&lt;/code&gt;) respective &lt;code&gt;5.1.15&lt;/code&gt; (&lt;code&gt;Lovelace&lt;/code&gt;)&lt;/a&gt;. &lt;/p&gt;
+    <updated>2020-04-28T13:43:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team, I&amp;rsquo;m pleased to announce Spring Data releases &lt;code&gt;Neumann RC2&lt;/code&gt;, &lt;code&gt;Moore SR7&lt;/code&gt;, and &lt;code&gt;Lovelace SR17&lt;/code&gt;. This triple-feature is built on top of today&amp;rsquo;s &lt;a href="https://spring.io/blog/2020/04/28/spring-framework-5-2-6-5-1-15-5-0-17-and-4-3-27-available-now"&gt;Spring Framework releases &lt;code&gt;5.2.6&lt;/code&gt; (&lt;code&gt;Neumann&lt;/code&gt; and &lt;code&gt;Moore&lt;/code&gt;) and &lt;code&gt;5.1.15&lt;/code&gt; (&lt;code&gt;Lovelace&lt;/code&gt;)&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Spring Data &lt;code&gt;Neumann RC2&lt;/code&gt; contains &lt;a href="https://jira.spring.io/issues/?filter=16833"&gt;96 new features, improvements, and fixes&lt;/a&gt;. Spring Data &lt;code&gt;Moore SR7&lt;/code&gt; ships with &lt;a href="https://jira.spring.io/issues/?filter=16831"&gt;40 fixes and improvements&lt;/a&gt;. Finally, Spring Data &lt;code&gt;Lovelace SR17&lt;/code&gt; includes &lt;a href="https://jira.spring.io/issues/?filter=16740"&gt;39 selected fixes&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Spring Data &lt;code&gt;Neumann RC2&lt;/code&gt; ships with numerous improvements and new features. The most interesting amongst these are:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Query Derivation for Spring Data JDBC.&lt;/li&gt;
-  &lt;li&gt;Refinements in the reactive resource lookup for Spring Data Cassandra and Spring Data MongoDB introducing a deferred lookup for &lt;code&gt;Session&lt;/code&gt; respective &lt;code&gt;MongoDatabase&lt;/code&gt; allowing for routing implementations leveraging the Subscriber Context.&lt;/li&gt;
+  &lt;li&gt;Refinements in the reactive resource lookup for Spring Data Cassandra and Spring Data MongoDB, introducing a deferred lookup for &lt;code&gt;Session&lt;/code&gt; with a &lt;code&gt;MongoDatabase&lt;/code&gt; that allows for routing implementations that use the Subscriber Context.&lt;/li&gt;
   &lt;li&gt;Embedded Types in Spring Data Cassandra&lt;/li&gt;
   &lt;li&gt;Additional Entity Callbacks in Spring Data Elasticsearch&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Spring Data &lt;code&gt;Neumann RC2&lt;/code&gt; is the last planned release candidate of the Neumann release train before shipping a GA release in early May. This is a good opportunity to upgrade your dependencies and report any issues before the GA release. Expect Spring Boot releases in the next few days that pick up these Spring Data releases for your convenience.&lt;/p&gt;
-&lt;p&gt;And finally, here are the links to the individual modules along with their documentation:&lt;/p&gt;&lt;h2&gt;&lt;a href="#neumann-rc2" class="anchor" name="neumann-rc2"&gt;&lt;/a&gt;Neumann RC2&lt;/h2&gt;
+&lt;p&gt;Finally, here are the links to the individual modules along with their documentation:&lt;/p&gt;&lt;h2&gt;&lt;a href="#neumann-rc2" class="anchor" name="neumann-rc2"&gt;&lt;/a&gt;Neumann RC2&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Spring Data Commons 2.3 RC2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-commons/2.3.0.RC2"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/commons/docs/2.3.0.RC2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/commons/docs/2.3.0.RC2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/commons/docs/2.3.0.RC2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data JDBC 2.0 RC2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jdbc/2.0.0.RC2"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/jdbc/docs/2.0.0.RC2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/jdbc/docs/2.0.0.RC2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/jdbc/docs/2.0.0.RC2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;

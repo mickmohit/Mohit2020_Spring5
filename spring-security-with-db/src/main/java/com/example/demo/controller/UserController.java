@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import java.awt.PageAttributes.MediaType;
 import java.util.List;
 import java.util.Optional;
 
@@ -14,6 +15,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,22 +33,6 @@ public class UserController {
 	@Autowired
     private UserService userService;
 
-	@GetMapping("/all")
-    public String hello() {
-        return "Hello Youtube";
-    }
-
-    @PreAuthorize("hasAnyRole('ADMIN')")
-    @GetMapping("/secured/all")
-    public String securedHello() {
-        return "Secured Hello";
-    }
-
-    @GetMapping("/secured/alternate")
-    public String alternate() {
-        return "alternate";
-    }
-    
     @GetMapping({"/", "/home"})
     public ModelAndView welcome() {
     	ModelAndView modelAndView = new ModelAndView();
@@ -62,54 +48,41 @@ public class UserController {
     }
 
 
-    @RequestMapping(value="/registration", method = RequestMethod.GET)
+    @RequestMapping(value="/signup", method = RequestMethod.GET)
     public ModelAndView registration(Model model){
     	 ModelAndView modelAndView = new ModelAndView();
     	//model.addAttribute("users", new Users());
     	modelAndView.addObject("users", new Users());
-    	 modelAndView.setViewName("registration");
+    	 modelAndView.setViewName("signup");
     	System.out.print("Going from 1");
     	LOG.info("Going from 1");
       //  return "registration";
     	return modelAndView;
     }
 
-    @RequestMapping(value = "/registrationProcess", method = RequestMethod.POST)
-    public ModelAndView createNewUser(@Valid @ModelAttribute("users")  Users user,
-    		BindingResult bindingResult) {
-
-    	ModelAndView modelAndView = new ModelAndView();
-    	System.out.print("entering to 2");
-    	LOG.info("entering to 2");
+ 
+  
+    @RequestMapping(value= {"/signup"}, method=RequestMethod.POST)
+    public ModelAndView createUser(@Valid Users user, BindingResult bindingResult) {
     	
-		  Optional<Users> userExists =
-		  userService.findUserByUserName(user.getName()); 
-		/*
-		 * if (userExists != null) { LOG.info("entering to user exists"); bindingResult
-		 * .rejectValue("name", "error.user",
-		 * "There is already a user registered with the user name provided"); }
-		 */
-		
-		  LOG.info("binding value---",bindingResult.hasErrors());
-		  if(bindingResult.hasErrors()) 
-		  { 
-			  List<FieldError> errors = bindingResult.getFieldErrors(); 
-			  for (FieldError error : errors ) 
-		  { 
-				  LOG.info (error.getObjectName() + " - " + error.getDefaultMessage()); 
-		  }
-		  LOG.info("entering to 3",bindingResult.getErrorCount());
-		  modelAndView.setViewName("registration"); 
-		  }
-		 
-		  else {
-			  LOG.info("entering to 4");
-			  userService.saveUser(user);
-			  modelAndView.addObject("successMessage", "User has been registered successfully");
-			//  modelAndView.setViewName("login");
-			   } 
-		  return modelAndView;
+    	LOG.info("Entering to 2");
+     ModelAndView model = new ModelAndView();
+     Optional<Users> userExists =
+   		  userService.findUserByUserName(user.getName()); 
+     
+     /*if(userExists != null) {
+      bindingResult.rejectValue("email", "error.user", "This email already exists!");
+     }*/
+     if(bindingResult.hasErrors()) {
+      model.setViewName("signup");
+     } else {
+      userService.saveUser(user);
+      model.addObject("msg", "User has been registered successfully!");
+      model.addObject("user", new Users());
+      model.setViewName("signup");
+     }
+     
+     return model;
     }
-
     
 }

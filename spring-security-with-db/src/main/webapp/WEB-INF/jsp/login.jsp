@@ -30,11 +30,13 @@
 			<div>
 				<input type="submit" value="Sign In" class="button red small" />
 			</div>
-			
+			<label>
+           <input type="checkbox" name="remember-me" /> Remember me
+         </label>
 			<div><table>
 			<tr><td>
 			
-			<a href="<spring:url value='registration'/>">Sign Up</a>
+	<a style="margin-left:7.5em" href="<spring:url value='signup'/>">Don't have an account? Sign Up</a>
 		    
              </td></tr>
              </table></div>
