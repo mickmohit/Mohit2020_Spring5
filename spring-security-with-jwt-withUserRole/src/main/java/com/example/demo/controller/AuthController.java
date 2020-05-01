@@ -61,6 +61,24 @@ public class AuthController {
 	@PostMapping("/signin")
 	public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
 
+// https://docs.spring.io/spring-security/site/docs/5.0.0.RC1/reference/htmlsingle/#overall-architecture..below is the details
+// UserDetailsService will provide the specific user's information held by your particular system .
+//There is often some confusion about UserDetailsService. It is purely a DAO for user data and performs
+//no other function other than to supply that data to other components within the framework.
+//In particular, it does not authenticate the user, which is done by the AuthenticationManager. 
+//In many cases it makes more sense to implement AuthenticationProvider directly if you require a custom authentication process.
+/*
+ *  AuthenticationProvider and UserDetailsService have different purpose.
+
+AuthenticationProvider authenticates(compares) the user(request) provided username and password 
+against system User(This can be any system like DB which maintains list of registered users)
+
+It is the responsiblity of UserDetailsService Implementation to get the System User Details that match 
+with user provided Username. Here it just gets the users that have same username and does not tell the
+ application whether authentication is successful or failed.
+ 
+ */
+		
 		Authentication authentication = authenticationManager.authenticate(
 				new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
 

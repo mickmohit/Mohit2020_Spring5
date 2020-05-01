@@ -64,6 +64,8 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 						.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 				// After setting the Authentication in the context, we specify
 				// that the current user is authenticated. So it passes the Spring Security Configurations successfully.
+// A user is authenticated when the SecurityContextHolder contains a fully populated Authentication object(Principal User).
+//All you need to do is write a filter (or equivalent) that reads the third-party user information from a location, build a Spring Security-specific Authentication object, and put it into the SecurityContextHolder.				
 				SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
 			}
 		}

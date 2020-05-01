@@ -22,7 +22,6 @@ INDEX VERSION 1.131+C:\Mohit_Personal\GFG-MohitPractiseJava\.metadata\.plugins\o
 4105633968.index
 2927535998.index
 4278042664.index
-2613833910.index
 3735415818.index
 2447565451.index
 2831946007.index
