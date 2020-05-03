@@ -8286,3 +8286,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-05-03 18:11:00,240 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-03 18:11:00,243 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-03 18:11:00,247 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 18:11:00,250 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 18:11:00,250 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources

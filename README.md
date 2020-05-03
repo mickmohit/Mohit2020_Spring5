@@ -1,7 +1,7 @@
 # Mohit2020_Spring5
 
-###
-#Mongo Db run scripts
+
+# Mongo Db run scripts
 
 in one cmd---start DB server
 "C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath="C:\{yourDirectory}\data\db"
@@ -11,7 +11,7 @@ in 2nd cmd--connect to db
 
 
 
-#kafka run scripts
+# kafka run scripts
 
 run zookeeper 
 ---C:\Softwares\kafka_2.13-2.5.0\bin\windows>zookeeper-server-start.bat C:\Softwares\kafka_2.13-2.5.0\config\zookeeper.properties
