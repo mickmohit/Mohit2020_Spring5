@@ -7778,3 +7778,511 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-05-01 13:10:10,295 [Worker-627: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-01 13:10:10,346 [Worker-627: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-05-01 13:10:10,349 [Worker-627: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 13:10:10,349 [Worker-627: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt-withUserRole\src\test\resources
+2020-05-03 10:42:12,780 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-with-kafka:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\pom.xml.
+2020-05-03 10:42:14,745 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka/2.3.7.RELEASE/spring-kafka-2.3.7.RELEASE.pom
+2020-05-03 10:42:15,056 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka/2.3.7.RELEASE/spring-kafka-2.3.7.RELEASE.pom
+2020-05-03 10:42:15,355 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1.pom
+2020-05-03 10:42:15,664 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1.pom
+2020-05-03 10:42:15,975 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.pom
+2020-05-03 10:42:16,276 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.pom
+2020-05-03 10:42:16,571 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.pom
+2020-05-03 10:42:16,881 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.pom
+2020-05-03 10:42:17,179 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.pom
+2020-05-03 10:42:17,690 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.pom
+2020-05-03 10:42:17,989 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE.pom
+2020-05-03 10:42:18,307 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE.pom
+2020-05-03 10:42:18,610 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.2.5.RELEASE/spring-messaging-5.2.5.RELEASE.pom
+2020-05-03 10:42:18,946 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.2.5.RELEASE/spring-messaging-5.2.5.RELEASE.pom
+2020-05-03 10:42:19,717 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka-test/2.3.7.RELEASE/spring-kafka-test-2.3.7.RELEASE.pom
+2020-05-03 10:42:20,022 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka-test/2.3.7.RELEASE/spring-kafka-test-2.3.7.RELEASE.pom
+2020-05-03 10:42:20,322 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1.pom
+2020-05-03 10:42:20,629 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1.pom
+2020-05-03 10:42:20,926 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/connect-json/2.3.1/connect-json-2.3.1.pom
+2020-05-03 10:42:21,229 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/connect-json/2.3.1/connect-json-2.3.1.pom
+2020-05-03 10:42:21,524 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/connect-api/2.3.1/connect-api-2.3.1.pom
+2020-05-03 10:42:21,833 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/connect-api/2.3.1/connect-api-2.3.1.pom
+2020-05-03 10:42:22,143 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/5.18.3/rocksdbjni-5.18.3.pom
+2020-05-03 10:42:22,459 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/5.18.3/rocksdbjni-5.18.3.pom
+2020-05-03 10:42:22,782 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams-test-utils/2.3.1/kafka-streams-test-utils-2.3.1.pom
+2020-05-03 10:42:23,090 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams-test-utils/2.3.1/kafka-streams-test-utils-2.3.1.pom
+2020-05-03 10:42:23,385 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1.pom
+2020-05-03 10:42:23,700 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1.pom
+2020-05-03 10:42:24,004 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.3/jackson-module-scala_2.12-2.10.3.pom
+2020-05-03 10:42:24,311 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.3/jackson-module-scala_2.12-2.10.3.pom
+2020-05-03 10:42:24,610 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom
+2020-05-03 10:42:24,919 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom
+2020-05-03 10:42:25,215 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3.pom
+2020-05-03 10:42:25,532 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3.pom
+2020-05-03 10:42:25,831 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.10.3/jackson-modules-base-2.10.3.pom
+2020-05-03 10:42:26,136 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.10.3/jackson-modules-base-2.10.3.pom
+2020-05-03 10:42:26,459 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.3/jackson-dataformat-csv-2.10.3.pom
+2020-05-03 10:42:26,764 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.3/jackson-dataformat-csv-2.10.3.pom
+2020-05-03 10:42:27,076 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.10.3/jackson-dataformats-text-2.10.3.pom
+2020-05-03 10:42:27,389 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.10.3/jackson-dataformats-text-2.10.3.pom
+2020-05-03 10:42:27,687 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.pom
+2020-05-03 10:42:28,008 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.pom
+2020-05-03 10:42:28,313 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom
+2020-05-03 10:42:28,619 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom
+2020-05-03 10:42:28,915 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-parent/2.2.0/metrics-parent-2.2.0.pom
+2020-05-03 10:42:29,230 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-parent/2.2.0/metrics-parent-2.2.0.pom
+2020-05-03 10:42:29,527 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom
+2020-05-03 10:42:29,840 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom
+2020-05-03 10:42:30,134 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom
+2020-05-03 10:42:30,446 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom
+2020-05-03 10:42:30,748 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.pom
+2020-05-03 10:42:31,044 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.pom
+2020-05-03 10:42:31,338 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom
+2020-05-03 10:42:31,638 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom
+2020-05-03 10:42:31,933 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.pom
+2020-05-03 10:42:32,228 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.pom
+2020-05-03 10:42:32,523 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11.pom
+2020-05-03 10:42:32,827 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11.pom
+2020-05-03 10:42:33,123 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14.pom
+2020-05-03 10:42:33,436 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14.pom
+2020-05-03 10:42:33,735 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.pom
+2020-05-03 10:42:34,031 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.pom
+2020-05-03 10:42:34,327 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+2020-05-03 10:42:34,632 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+2020-05-03 10:42:34,930 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.pom
+2020-05-03 10:42:35,242 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.pom
+2020-05-03 10:42:35,541 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/yetus/yetus-project/0.5.0/yetus-project-0.5.0.pom
+2020-05-03 10:42:35,853 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/yetus/yetus-project/0.5.0/yetus-project-0.5.0.pom
+2020-05-03 10:42:36,292 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka/2.3.7.RELEASE/spring-kafka-2.3.7.RELEASE.jar
+2020-05-03 10:42:37,840 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka/2.3.7.RELEASE/spring-kafka-2.3.7.RELEASE.jar
+2020-05-03 10:42:38,132 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1.jar
+2020-05-03 10:42:41,817 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1.jar
+2020-05-03 10:42:42,131 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.jar
+2020-05-03 10:42:46,798 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1.jar
+2020-05-03 10:42:47,107 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar
+2020-05-03 10:42:48,137 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar
+2020-05-03 10:42:48,426 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar
+2020-05-03 10:42:50,806 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar
+2020-05-03 10:42:51,097 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE.jar
+2020-05-03 10:42:51,477 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE.jar
+2020-05-03 10:42:51,781 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.2.5.RELEASE/spring-messaging-5.2.5.RELEASE.jar
+2020-05-03 10:42:52,706 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.2.5.RELEASE/spring-messaging-5.2.5.RELEASE.jar
+2020-05-03 10:42:53,002 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka-test/2.3.7.RELEASE/spring-kafka-test-2.3.7.RELEASE.jar
+2020-05-03 10:42:53,332 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka-test/2.3.7.RELEASE/spring-kafka-test-2.3.7.RELEASE.jar
+2020-05-03 10:42:53,670 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1-test.jar
+2020-05-03 10:42:55,817 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1-test.jar
+2020-05-03 10:42:56,102 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1.jar
+2020-05-03 10:42:57,419 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1.jar
+2020-05-03 10:42:57,710 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/connect-json/2.3.1/connect-json-2.3.1.jar
+2020-05-03 10:42:58,040 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/connect-json/2.3.1/connect-json-2.3.1.jar
+2020-05-03 10:42:58,338 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/connect-api/2.3.1/connect-api-2.3.1.jar
+2020-05-03 10:42:58,686 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/connect-api/2.3.1/connect-api-2.3.1.jar
+2020-05-03 10:42:58,976 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/5.18.3/rocksdbjni-5.18.3.jar
+2020-05-03 10:43:22,204 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/5.18.3/rocksdbjni-5.18.3.jar
+2020-05-03 10:43:22,491 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams-test-utils/2.3.1/kafka-streams-test-utils-2.3.1.jar
+2020-05-03 10:43:22,822 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams-test-utils/2.3.1/kafka-streams-test-utils-2.3.1.jar
+2020-05-03 10:43:23,127 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1.jar
+2020-05-03 10:43:29,641 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1.jar
+2020-05-03 10:43:29,933 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.3/jackson-module-scala_2.12-2.10.3.jar
+2020-05-03 10:43:30,592 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.3/jackson-module-scala_2.12-2.10.3.jar
+2020-05-03 10:43:30,898 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3.jar
+2020-05-03 10:43:31,215 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3.jar
+2020-05-03 10:43:31,514 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.3/jackson-dataformat-csv-2.10.3.jar
+2020-05-03 10:43:32,139 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.3/jackson-dataformat-csv-2.10.3.jar
+2020-05-03 10:43:32,434 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+2020-05-03 10:43:33,052 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+2020-05-03 10:43:33,344 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar
+2020-05-03 10:43:33,692 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar
+2020-05-03 10:43:33,984 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+2020-05-03 10:43:43,370 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar
+2020-05-03 10:43:43,735 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+2020-05-03 10:43:52,794 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar
+2020-05-03 10:43:53,084 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.jar
+2020-05-03 10:43:53,405 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.jar
+2020-05-03 10:43:53,701 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11.jar
+2020-05-03 10:43:54,317 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11.jar
+2020-05-03 10:43:54,612 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14.jar
+2020-05-03 10:43:57,867 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14.jar
+2020-05-03 10:43:58,155 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar
+2020-05-03 10:43:58,462 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar
+2020-05-03 10:43:58,764 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+2020-05-03 10:43:59,072 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+2020-05-03 10:43:59,364 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar
+2020-05-03 10:43:59,671 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar
+2020-05-03 10:43:59,958 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1-test.jar
+2020-05-03 10:44:07,396 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1-test.jar
+2020-05-03 10:44:12,215 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springBoot-with-kafka/src/main/java
+2020-05-03 10:44:12,216 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springBoot-with-kafka/src/main/resources
+2020-05-03 10:44:12,258 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springBoot-with-kafka/src/main/resources
+2020-05-03 10:44:12,285 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springBoot-with-kafka/src/test/java
+2020-05-03 10:44:14,308 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 122 sec
+2020-05-03 10:44:14,310 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-03 10:44:14,952 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-with-kafka:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\pom.xml.
+2020-05-03 10:44:15,997 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka/2.3.7.RELEASE/spring-kafka-2.3.7.RELEASE-sources.jar
+2020-05-03 10:44:17,046 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springBoot-with-kafka/src/main/java
+2020-05-03 10:44:17,048 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springBoot-with-kafka/src/main/resources
+2020-05-03 10:44:17,050 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springBoot-with-kafka/src/main/resources
+2020-05-03 10:44:17,055 [Worker-927: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springBoot-with-kafka/src/test/java
+2020-05-03 10:44:18,050 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka/2.3.7.RELEASE/spring-kafka-2.3.7.RELEASE-sources.jar
+2020-05-03 10:44:18,263 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka:2.3.7.RELEASE
+2020-05-03 10:44:18,370 [Worker-927: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2020-05-03 10:44:20,256 [Worker-936: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:44:20,257 [Worker-936: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:44:20,261 [Worker-936: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:44:20,266 [Worker-936: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:44:20,267 [Worker-936: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:44:21,493 [Worker-934: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:44:21,493 [Worker-934: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:44:21,494 [Worker-934: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:44:21,497 [Worker-934: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:44:21,497 [Worker-934: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:44:21,574 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1-sources.jar
+2020-05-03 10:44:32,001 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.3.1/kafka-clients-2.3.1-sources.jar
+2020-05-03 10:44:32,097 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1
+2020-05-03 10:44:33,524 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1-sources.jar
+2020-05-03 10:44:34,166 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.0-1/zstd-jni-1.4.0-1-sources.jar
+2020-05-03 10:44:34,274 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.luben:zstd-jni:1.4.0-1
+2020-05-03 10:44:35,535 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar
+2020-05-03 10:44:36,450 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar
+2020-05-03 10:44:36,509 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.lz4:lz4-java:1.6.0
+2020-05-03 10:44:37,774 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar
+2020-05-03 10:44:40,589 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar
+2020-05-03 10:44:40,642 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xerial.snappy:snappy-java:1.1.7.3
+2020-05-03 10:44:41,909 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE-sources.jar
+2020-05-03 10:44:44,078 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE-sources.jar
+2020-05-03 10:44:44,131 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.retry:spring-retry:1.2.5.RELEASE
+2020-05-03 10:44:45,374 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.2.5.RELEASE/spring-messaging-5.2.5.RELEASE-sources.jar
+2020-05-03 10:44:47,246 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.2.5.RELEASE/spring-messaging-5.2.5.RELEASE-sources.jar
+2020-05-03 10:44:47,357 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-messaging:5.2.5.RELEASE
+2020-05-03 10:44:48,924 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka-test/2.3.7.RELEASE/spring-kafka-test-2.3.7.RELEASE-sources.jar
+2020-05-03 10:44:49,553 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/kafka/spring-kafka-test/2.3.7.RELEASE/spring-kafka-test-2.3.7.RELEASE-sources.jar
+2020-05-03 10:44:49,613 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka-test:2.3.7.RELEASE
+2020-05-03 10:44:49,619 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1:test
+2020-05-03 10:44:51,728 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1-sources.jar
+2020-05-03 10:45:02,499 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams/2.3.1/kafka-streams-2.3.1-sources.jar
+2020-05-03 10:45:02,561 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams:2.3.1
+2020-05-03 10:45:03,721 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/connect-json/2.3.1/connect-json-2.3.1-sources.jar
+2020-05-03 10:45:04,382 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/connect-json/2.3.1/connect-json-2.3.1-sources.jar
+2020-05-03 10:45:04,452 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-json:2.3.1
+2020-05-03 10:45:05,696 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/connect-api/2.3.1/connect-api-2.3.1-sources.jar
+2020-05-03 10:45:06,964 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/connect-api/2.3.1/connect-api-2.3.1-sources.jar
+2020-05-03 10:45:07,012 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-api:2.3.1
+2020-05-03 10:45:08,187 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/5.18.3/rocksdbjni-5.18.3-sources.jar
+2020-05-03 10:45:09,978 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/5.18.3/rocksdbjni-5.18.3-sources.jar
+2020-05-03 10:45:10,032 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.rocksdb:rocksdbjni:5.18.3
+2020-05-03 10:45:11,203 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams-test-utils/2.3.1/kafka-streams-test-utils-2.3.1-sources.jar
+2020-05-03 10:45:11,790 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-streams-test-utils/2.3.1/kafka-streams-test-utils-2.3.1-sources.jar
+2020-05-03 10:45:11,834 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams-test-utils:2.3.1
+2020-05-03 10:45:13,028 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1-sources.jar
+2020-05-03 10:45:16,928 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.12/2.3.1/kafka_2.12-2.3.1-sources.jar
+2020-05-03 10:45:16,991 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1
+2020-05-03 10:45:18,145 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.3/jackson-module-scala_2.12-2.10.3-sources.jar
+2020-05-03 10:45:18,995 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.3/jackson-module-scala_2.12-2.10.3-sources.jar
+2020-05-03 10:45:19,064 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-scala_2.12:2.10.3
+2020-05-03 10:45:20,680 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3-sources.jar
+2020-05-03 10:45:20,989 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3-sources.jar
+2020-05-03 10:45:21,082 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-paranamer:2.10.3
+2020-05-03 10:45:22,293 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.3/jackson-dataformat-csv-2.10.3-sources.jar
+2020-05-03 10:45:23,171 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.10.3/jackson-dataformat-csv-2.10.3-sources.jar
+2020-05-03 10:45:23,223 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.10.3
+2020-05-03 10:45:24,401 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4-sources.jar
+2020-05-03 10:45:25,342 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4-sources.jar
+2020-05-03 10:45:25,391 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.jopt-simple:jopt-simple:5.0.4
+2020-05-03 10:45:26,687 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar
+2020-05-03 10:45:27,569 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar
+2020-05-03 10:45:27,616 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.yammer.metrics:metrics-core:2.2.0
+2020-05-03 10:45:28,849 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar
+2020-05-03 10:45:32,601 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar
+2020-05-03 10:45:32,656 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-library:2.12.8
+2020-05-03 10:45:33,857 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar
+2020-05-03 10:45:35,655 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar
+2020-05-03 10:45:35,702 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-reflect:2.12.8
+2020-05-03 10:45:36,932 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar
+2020-05-03 10:45:37,228 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar
+2020-05-03 10:45:37,273 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.typesafe.scala-logging:scala-logging_2.12:3.9.0
+2020-05-03 10:45:38,448 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11-sources.jar
+2020-05-03 10:45:39,287 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.11/zkclient-0.11-sources.jar
+2020-05-03 10:45:39,338 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.101tec:zkclient:0.11
+2020-05-03 10:45:40,599 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14-sources.jar
+2020-05-03 10:45:42,720 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.14/zookeeper-3.4.14-sources.jar
+2020-05-03 10:45:42,766 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.zookeeper:zookeeper:3.4.14
+2020-05-03 10:45:43,950 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9-sources.jar
+2020-05-03 10:45:44,531 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9-sources.jar
+2020-05-03 10:45:44,612 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.spotbugs:spotbugs-annotations:3.1.9
+2020-05-03 10:45:45,822 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
+2020-05-03 10:45:46,395 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar
+2020-05-03 10:45:46,451 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.2
+2020-05-03 10:45:47,650 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0-sources.jar
+2020-05-03 10:45:48,220 [Worker-931: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0-sources.jar
+2020-05-03 10:45:48,268 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.yetus:audience-annotations:0.5.0
+2020-05-03 10:45:48,272 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1:test
+2020-05-03 10:45:48,276 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka:2.3.7.RELEASE
+2020-05-03 10:45:48,279 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1
+2020-05-03 10:45:48,283 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.luben:zstd-jni:1.4.0-1
+2020-05-03 10:45:48,286 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.lz4:lz4-java:1.6.0
+2020-05-03 10:45:48,290 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xerial.snappy:snappy-java:1.1.7.3
+2020-05-03 10:45:48,294 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.retry:spring-retry:1.2.5.RELEASE
+2020-05-03 10:45:48,297 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-messaging:5.2.5.RELEASE
+2020-05-03 10:45:48,301 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka-test:2.3.7.RELEASE
+2020-05-03 10:45:48,303 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1:test
+2020-05-03 10:45:48,307 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams:2.3.1
+2020-05-03 10:45:48,311 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-json:2.3.1
+2020-05-03 10:45:48,315 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-api:2.3.1
+2020-05-03 10:45:48,319 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.rocksdb:rocksdbjni:5.18.3
+2020-05-03 10:45:48,322 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams-test-utils:2.3.1
+2020-05-03 10:45:48,325 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1
+2020-05-03 10:45:48,329 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-scala_2.12:2.10.3
+2020-05-03 10:45:48,333 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-paranamer:2.10.3
+2020-05-03 10:45:48,336 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.10.3
+2020-05-03 10:45:48,340 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.jopt-simple:jopt-simple:5.0.4
+2020-05-03 10:45:48,343 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.yammer.metrics:metrics-core:2.2.0
+2020-05-03 10:45:48,346 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-library:2.12.8
+2020-05-03 10:45:48,350 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-reflect:2.12.8
+2020-05-03 10:45:48,353 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.typesafe.scala-logging:scala-logging_2.12:3.9.0
+2020-05-03 10:45:48,357 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.101tec:zkclient:0.11
+2020-05-03 10:45:48,360 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.zookeeper:zookeeper:3.4.14
+2020-05-03 10:45:48,364 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.spotbugs:spotbugs-annotations:3.1.9
+2020-05-03 10:45:48,367 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.2
+2020-05-03 10:45:48,371 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.yetus:audience-annotations:0.5.0
+2020-05-03 10:45:48,373 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1:test
+2020-05-03 10:45:48,375 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka:2.3.7.RELEASE
+2020-05-03 10:45:48,377 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1
+2020-05-03 10:45:48,379 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.luben:zstd-jni:1.4.0-1
+2020-05-03 10:45:48,381 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.lz4:lz4-java:1.6.0
+2020-05-03 10:45:48,384 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xerial.snappy:snappy-java:1.1.7.3
+2020-05-03 10:45:48,386 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.retry:spring-retry:1.2.5.RELEASE
+2020-05-03 10:45:48,388 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-messaging:5.2.5.RELEASE
+2020-05-03 10:45:48,391 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka-test:2.3.7.RELEASE
+2020-05-03 10:45:48,393 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1:test
+2020-05-03 10:45:48,395 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams:2.3.1
+2020-05-03 10:45:48,398 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-json:2.3.1
+2020-05-03 10:45:48,400 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-api:2.3.1
+2020-05-03 10:45:48,402 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.rocksdb:rocksdbjni:5.18.3
+2020-05-03 10:45:48,404 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams-test-utils:2.3.1
+2020-05-03 10:45:48,407 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1
+2020-05-03 10:45:48,409 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-scala_2.12:2.10.3
+2020-05-03 10:45:48,411 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-paranamer:2.10.3
+2020-05-03 10:45:48,414 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.10.3
+2020-05-03 10:45:48,416 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.jopt-simple:jopt-simple:5.0.4
+2020-05-03 10:45:48,419 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.yammer.metrics:metrics-core:2.2.0
+2020-05-03 10:45:48,421 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-library:2.12.8
+2020-05-03 10:45:48,424 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-reflect:2.12.8
+2020-05-03 10:45:48,426 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.typesafe.scala-logging:scala-logging_2.12:3.9.0
+2020-05-03 10:45:48,429 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.101tec:zkclient:0.11
+2020-05-03 10:45:48,431 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.zookeeper:zookeeper:3.4.14
+2020-05-03 10:45:48,433 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.spotbugs:spotbugs-annotations:3.1.9
+2020-05-03 10:45:48,435 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.2
+2020-05-03 10:45:48,438 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.yetus:audience-annotations:0.5.0
+2020-05-03 10:45:48,440 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1:test
+2020-05-03 10:45:48,443 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka:2.3.7.RELEASE
+2020-05-03 10:45:48,445 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1
+2020-05-03 10:45:48,448 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.luben:zstd-jni:1.4.0-1
+2020-05-03 10:45:48,450 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.lz4:lz4-java:1.6.0
+2020-05-03 10:45:48,452 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xerial.snappy:snappy-java:1.1.7.3
+2020-05-03 10:45:48,455 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.retry:spring-retry:1.2.5.RELEASE
+2020-05-03 10:45:48,457 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-messaging:5.2.5.RELEASE
+2020-05-03 10:45:48,459 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.kafka:spring-kafka-test:2.3.7.RELEASE
+2020-05-03 10:45:48,464 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-clients:2.3.1:test
+2020-05-03 10:45:48,466 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams:2.3.1
+2020-05-03 10:45:48,468 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-json:2.3.1
+2020-05-03 10:45:48,471 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:connect-api:2.3.1
+2020-05-03 10:45:48,474 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.rocksdb:rocksdbjni:5.18.3
+2020-05-03 10:45:48,476 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka-streams-test-utils:2.3.1
+2020-05-03 10:45:48,478 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1
+2020-05-03 10:45:48,480 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-scala_2.12:2.10.3
+2020-05-03 10:45:48,483 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-paranamer:2.10.3
+2020-05-03 10:45:48,485 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.10.3
+2020-05-03 10:45:48,487 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.jopt-simple:jopt-simple:5.0.4
+2020-05-03 10:45:48,490 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.yammer.metrics:metrics-core:2.2.0
+2020-05-03 10:45:48,492 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-library:2.12.8
+2020-05-03 10:45:48,494 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.scala-lang:scala-reflect:2.12.8
+2020-05-03 10:45:48,497 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.typesafe.scala-logging:scala-logging_2.12:3.9.0
+2020-05-03 10:45:48,499 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.101tec:zkclient:0.11
+2020-05-03 10:45:48,501 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.zookeeper:zookeeper:3.4.14
+2020-05-03 10:45:48,503 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.spotbugs:spotbugs-annotations:3.1.9
+2020-05-03 10:45:48,506 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.2
+2020-05-03 10:45:48,508 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.yetus:audience-annotations:0.5.0
+2020-05-03 10:45:48,510 [Worker-931: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.kafka:kafka_2.12:2.3.1:test
+2020-05-03 10:45:48,977 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:45:48,978 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:45:48,978 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:45:48,978 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:45:48,978 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:48:18,478 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:48:18,479 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:48:18,481 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:48:18,483 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:48:18,483 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:48:33,812 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:48:33,813 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:48:33,815 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:48:33,816 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:48:33,816 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:53:39,985 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:53:39,985 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:53:39,986 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:53:39,987 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:53:39,987 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:53:50,775 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:53:50,776 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:53:50,777 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:53:50,778 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:53:50,778 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:55:15,527 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:55:15,528 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:55:15,530 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:55:15,533 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:55:15,533 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:55:46,947 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:55:46,948 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:55:46,950 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:55:46,951 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:55:46,951 [Worker-938: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:56:36,725 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:56:36,726 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:56:36,728 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:56:36,729 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:56:36,729 [Worker-939: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:57:06,531 [Worker-944: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:57:06,532 [Worker-944: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:57:06,534 [Worker-944: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:57:06,535 [Worker-944: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:57:06,535 [Worker-944: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:58:27,631 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:58:27,633 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:58:27,636 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:58:27,637 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:58:27,638 [Worker-942: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:58:53,560 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:58:53,561 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:58:53,563 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:58:53,564 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:58:53,564 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 10:59:41,728 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:59:41,729 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 10:59:41,731 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 10:59:41,732 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 10:59:41,732 [Worker-943: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 11:02:48,273 [Worker-941: Launching springBoot-with-kafka - SpringBootWithKafkaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 11:02:48,273 [Worker-941: Launching springBoot-with-kafka - SpringBootWithKafkaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 11:02:48,275 [Worker-941: Launching springBoot-with-kafka - SpringBootWithKafkaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 11:02:48,276 [Worker-941: Launching springBoot-with-kafka - SpringBootWithKafkaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 11:02:48,276 [Worker-941: Launching springBoot-with-kafka - SpringBootWithKafkaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 12:50:39,141 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:50:39,144 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 12:50:39,149 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 12:50:39,154 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:50:39,154 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 12:54:38,907 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:54:38,910 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 12:54:38,914 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 12:54:38,917 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:54:38,917 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 12:56:17,818 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:56:17,820 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 12:56:17,823 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 12:56:17,825 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:56:17,825 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 12:56:55,138 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:56:55,140 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 12:56:55,143 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 12:56:55,146 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:56:55,146 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 12:57:48,231 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:57:48,232 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 12:57:48,237 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 12:57:48,240 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 12:57:48,240 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 13:08:00,728 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:08:00,730 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 13:08:00,735 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 13:08:00,737 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:08:00,737 [Worker-983: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 13:09:51,748 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:09:51,749 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 13:09:51,752 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 13:09:51,754 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:09:51,754 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 13:11:49,494 [Worker-980: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:11:49,496 [Worker-980: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 13:11:49,500 [Worker-980: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 13:11:49,502 [Worker-980: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:11:49,502 [Worker-980: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 13:12:58,712 [Worker-978: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:12:58,713 [Worker-978: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 13:12:58,717 [Worker-978: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 13:12:58,720 [Worker-978: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 13:12:58,721 [Worker-978: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:24:19,478 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:24:19,481 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:24:19,486 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:24:19,489 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:24:19,489 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:32:05,774 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:32:05,776 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:32:05,780 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:32:05,782 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:32:05,782 [Worker-1034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:37:22,326 [Worker-1040: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:37:22,328 [Worker-1040: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:37:22,333 [Worker-1040: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:37:22,335 [Worker-1040: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:37:22,335 [Worker-1040: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:40:52,105 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:40:52,106 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:40:52,110 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:40:52,113 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:40:52,113 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:41:24,526 [Worker-1045: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:41:24,528 [Worker-1045: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:41:24,532 [Worker-1045: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:41:24,534 [Worker-1045: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:41:24,534 [Worker-1045: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:44:22,783 [Worker-1050: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:44:22,785 [Worker-1050: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:44:22,788 [Worker-1050: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:44:22,791 [Worker-1050: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:44:22,791 [Worker-1050: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:46:30,629 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:46:30,631 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:46:30,634 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:46:30,636 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:46:30,636 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:50:03,473 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:50:03,475 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:50:03,479 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:50:03,481 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:50:03,481 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:51:06,547 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:51:06,548 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:51:06,552 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:51:06,554 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:51:06,554 [Worker-1056: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:51:57,675 [Worker-1049: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:51:57,677 [Worker-1049: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:51:57,680 [Worker-1049: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:51:57,682 [Worker-1049: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:51:57,683 [Worker-1049: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:55:23,031 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:55:23,033 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:55:23,037 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:55:23,039 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:55:23,039 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:55:56,052 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:55:56,054 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:55:56,057 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:55:56,058 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:55:56,059 [Worker-1054: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 17:58:00,607 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:58:00,609 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 17:58:00,612 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 17:58:00,615 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 17:58:00,616 [Worker-1062: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 18:00:08,811 [Worker-1064: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 18:00:08,814 [Worker-1064: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 18:00:08,818 [Worker-1064: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 18:00:08,820 [Worker-1064: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 18:00:08,820 [Worker-1064: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 18:05:35,702 [Worker-1067: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 18:05:35,703 [Worker-1067: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 18:05:35,708 [Worker-1067: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-03 18:05:35,710 [Worker-1067: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 18:05:35,711 [Worker-1067: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-03 18:11:00,240 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 18:11:00,243 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-03 18:11:00,247 [Worker-1072: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
