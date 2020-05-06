@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
@@ -67,6 +68,11 @@ public class SpringSecurityconfig extends WebSecurityConfigurerAdapter  {
 //Add a filter to validate the tokens with every request,
 		//syntax: public HttpSecurity addFilterBefore(Filter filter, Class beforeFilter)
 		http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+//here in above method...if jwtRequestFilter filter has populated the securitycontext with principal
+// then UsernamePasswordAuthenticationFilter will not be called , but if securitycontext is null then
+//UsernamePasswordAuthenticationFilter will be called which internally it will call UsernamePasswordAuthenticationToken
+// like in jwtRequestFilter to get details of username against request.
+		
 	}
 	
 }
