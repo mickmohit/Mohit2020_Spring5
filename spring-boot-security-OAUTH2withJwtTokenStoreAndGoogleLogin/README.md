@@ -38,4 +38,16 @@
 		
 5. The ``` CustomOidcUserService ``` retrieves the details of the authenticated user and creates a new entry in the database or updates the existing entry with the same email.
 
-6. Finally, the oAuth2AuthenticationSuccessHandler is invoked. It creates a JWT authentication token for the user and sends the user to the redirect_uri along with the JWT token in a query string.   
+6. Finally, the oAuth2AuthenticationSuccessHandler is invoked. It creates a JWT authentication token for the user and sends the user to the redirect_uri along with the JWT token in a query string.
+
+
+
+## More on HttpCookieOAuth2AuthorizationRequestRepository
+
+The OAuth2 protocol recommends using a state parameter to prevent CSRF attacks. During authentication, the application sends this parameter in the authorization request, and the OAuth2 provider returns this parameter unchanged in the OAuth2 callback.
+The application compares the value of the state parameter returned from the OAuth2 provider with the value that it had sent initially. If they don’t match then it denies the authentication request.
+To achieve this flow, the application needs to store the state parameter somewhere so that it can later compare it with the state returned from the OAuth2 provider.
+We need to store the state as well as the redirect_uri in a short-lived cookie.   
+
+	# use CustomOAuth2UserService with ``` HttpCookieOAuth2AuthorizationRequestRepository ```, which extends Spring Security’s ``` DefaultOAuth2UserService ``` and implements its loadUser() method. This method is called after an access token is obtained from the OAuth2 provider.
+	# In this method, we first fetch the user’s details from the OAuth2 provider. If a user with the same email already exists in our database then we update his details, otherwise, we register a new user.
