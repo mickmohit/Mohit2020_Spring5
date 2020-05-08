@@ -12,14 +12,20 @@ import java.security.Principal;
 @Controller
 public class WebController {
 	
+	/*
+	 * Since we associated the Principal with authorized clients, we can obtain the
+	 * OAuth2AuthorizedClient instance using the @RegisteredOAuth2AuthorizedClient
+	 * annotation
+	 */
+	
     @RequestMapping("/securedPage")
-    public String securedPage(Model model, Principal principal,
-    		@RegisteredOAuth2AuthorizedClient OAuth2AuthorizedClient authorizedClient,  
-            @AuthenticationPrincipal OAuth2User oauth2User) {
-    	
-    	model.addAttribute("userName", oauth2User.getName());  
+    public String securedPage(Model model, Principal principal)
+    	//	@RegisteredOAuth2AuthorizedClient OAuth2AuthorizedClient authorizedClient,  
+         //   @AuthenticationPrincipal OAuth2User oauth2User) {
+    		{
+    	/*model.addAttribute("userName", oauth2User.getName());  
         model.addAttribute("clientName", authorizedClient.getClientRegistration().getClientName());  
-        model.addAttribute("userAttributes", oauth2User.getAttributes());  
+        model.addAttribute("userAttributes", oauth2User.getAttributes()); */ 
     	
         return "securedPage";
     }
