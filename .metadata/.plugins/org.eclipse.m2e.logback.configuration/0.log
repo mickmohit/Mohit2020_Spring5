@@ -10419,3 +10419,701 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar
 2020-05-07 13:15:57,394 [Worker-663: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-05-07 13:15:57,394 [Worker-663: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-05-07 13:15:57,397 [Worker-663: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 13:15:57,397 [Worker-663: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin\src\test\resources
+2020-05-07 13:41:56,523 [Worker-668: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 13:41:56,523 [Worker-668: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 13:41:56,524 [Worker-668: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 13:41:56,526 [Worker-668: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 13:41:56,526 [Worker-668: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin\src\test\resources
+2020-05-07 18:58:07,495 [Worker-707: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOkta:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOkta\pom.xml.
+2020-05-07 18:58:09,389 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOkta/src/main/java
+2020-05-07 18:58:09,390 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOkta/src/main/resources
+2020-05-07 18:58:09,403 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOkta/src/main/resources
+2020-05-07 18:58:09,419 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOkta/src/test/java
+2020-05-07 18:58:10,410 [Worker-707: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2020-05-07 18:58:10,412 [Worker-707: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-07 18:58:10,835 [Worker-707: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOkta:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOkta\pom.xml.
+2020-05-07 18:58:11,792 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOkta/src/main/java
+2020-05-07 18:58:11,793 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOkta/src/main/resources
+2020-05-07 18:58:11,795 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOkta/src/main/resources
+2020-05-07 18:58:11,799 [Worker-707: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOkta/src/test/java
+2020-05-07 18:58:12,120 [Worker-707: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-05-07 18:58:13,016 [Worker-709: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 18:58:13,017 [Worker-709: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 18:58:13,019 [Worker-709: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 18:58:13,021 [Worker-709: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 18:58:13,021 [Worker-709: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOkta\src\test\resources
+2020-05-07 18:58:14,242 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 18:58:14,242 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 18:58:14,243 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 18:58:14,244 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 18:58:14,244 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOkta\src\test\resources
+2020-05-07 19:03:16,964 [Worker-708: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOkta:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaServer\pom.xml.
+2020-05-07 19:03:17,623 [Worker-708: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:03:17,623 [Worker-708: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:03:17,626 [Worker-708: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:03:17,628 [Worker-708: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:03:17,628 [Worker-708: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaServer\src\test\resources
+2020-05-07 19:03:19,821 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:03:19,823 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:03:19,825 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:03:19,826 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:03:19,827 [Worker-707: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaServer\src\test\resources
+2020-05-07 19:03:43,029 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:03:43,030 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:03:43,032 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:03:43,033 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:03:43,034 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaServer\src\test\resources
+2020-05-07 19:06:30,019 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:06:30,020 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:06:30,023 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:06:30,025 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:06:30,025 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaServer\src\test\resources
+2020-05-07 19:07:32,750 [Worker-718: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsAuthorizationServer:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\pom.xml.
+2020-05-07 19:07:33,310 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/main/java
+2020-05-07 19:07:33,311 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/main/resources
+2020-05-07 19:07:33,321 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/main/resources
+2020-05-07 19:07:33,332 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/test/java
+2020-05-07 19:07:33,685 [Worker-718: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2020-05-07 19:07:33,689 [Worker-718: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-07 19:07:33,976 [Worker-718: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsAuthorizationServer:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\pom.xml.
+2020-05-07 19:07:34,675 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/main/java
+2020-05-07 19:07:34,676 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/main/resources
+2020-05-07 19:07:34,678 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/main/resources
+2020-05-07 19:07:34,681 [Worker-718: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsAuthorizationServer/src/test/java
+2020-05-07 19:07:35,044 [Worker-718: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-05-07 19:07:35,800 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:07:35,800 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:07:35,802 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:07:35,805 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:07:35,805 [Worker-713: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:07:37,003 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:07:37,003 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:07:37,003 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:07:37,006 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:07:37,007 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:07:46,201 [Worker-720: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:07:46,201 [Worker-720: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:07:46,203 [Worker-720: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:07:46,206 [Worker-720: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:07:46,206 [Worker-720: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:10:13,649 [Worker-718: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsAuthorizationServer:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\pom.xml.
+2020-05-07 19:11:03,890 [Worker-719: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsAuthorizationServer:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\pom.xml.
+2020-05-07 19:11:04,484 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:11:04,484 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:11:04,484 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:11:04,486 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:11:04,486 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:11:06,316 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:11:06,317 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:11:06,320 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:11:06,322 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:11:06,322 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:14:26,175 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:14:26,176 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:14:26,179 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:14:26,182 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:14:26,182 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:15:03,553 [Worker-724: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:15:03,554 [Worker-724: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:15:03,557 [Worker-724: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:15:03,560 [Worker-724: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:15:03,560 [Worker-724: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:17:35,976 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:17:35,977 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:17:35,980 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:17:35,983 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:17:35,983 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:19:14,385 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:19:14,386 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:19:14,389 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:19:14,392 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:19:14,393 [Worker-714: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:19:41,347 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:19:41,348 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:19:41,351 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:19:41,353 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:19:41,353 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:21:34,286 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:21:34,287 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:21:34,290 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:21:34,293 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:21:34,294 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:21:49,421 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:21:49,422 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:21:49,425 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:21:49,427 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:21:49,428 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:21:52,849 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:21:52,850 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:21:52,854 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:21:52,856 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:21:52,856 [Worker-718: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:24:01,757 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:24:01,758 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:24:01,761 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:24:01,762 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:24:01,762 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:24:19,310 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:24:19,311 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:24:19,313 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:24:19,315 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:24:19,315 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:25:42,870 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsClient:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\pom.xml.
+2020-05-07 19:25:44,515 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.2.6.RELEASE/spring-boot-starter-oauth2-client-2.2.6.RELEASE.pom
+2020-05-07 19:25:44,847 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.2.6.RELEASE/spring-boot-starter-oauth2-client-2.2.6.RELEASE.pom
+2020-05-07 19:25:45,269 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.pom
+2020-05-07 19:25:45,650 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.pom
+2020-05-07 19:25:46,062 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/all/1.6.5/all-1.6.5.pom
+2020-05-07 19:25:46,715 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/all/1.6.5/all-1.6.5.pom
+2020-05-07 19:25:47,073 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.pom
+2020-05-07 19:25:47,428 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.pom
+2020-05-07 19:25:48,251 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.2.6.RELEASE/spring-boot-starter-oauth2-client-2.2.6.RELEASE.jar
+2020-05-07 19:25:48,588 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.2.6.RELEASE/spring-boot-starter-oauth2-client-2.2.6.RELEASE.jar
+2020-05-07 19:25:48,881 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar
+2020-05-07 19:25:53,873 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar
+2020-05-07 19:25:54,187 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar
+2020-05-07 19:25:57,409 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar
+2020-05-07 19:25:58,116 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsClient/src/main/java
+2020-05-07 19:25:58,116 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsClient/src/main/resources
+2020-05-07 19:25:58,127 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsClient/src/main/resources
+2020-05-07 19:25:58,141 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsClient/src/test/java
+2020-05-07 19:25:58,721 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 16 sec
+2020-05-07 19:25:58,723 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-07 19:25:59,083 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsClient:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\pom.xml.
+2020-05-07 19:26:00,350 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsClient/src/main/java
+2020-05-07 19:26:00,351 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsClient/src/main/resources
+2020-05-07 19:26:00,353 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsClient/src/main/resources
+2020-05-07 19:26:00,356 [Worker-732: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsClient/src/test/java
+2020-05-07 19:26:00,710 [Worker-732: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-05-07 19:26:01,048 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:26:01,048 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:26:01,050 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:26:01,051 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:26:01,052 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:26:02,257 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:26:02,257 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:26:02,257 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:26:02,259 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:26:02,259 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:26:03,679 [Worker-730: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.2.6.RELEASE/spring-boot-starter-oauth2-client-2.2.6.RELEASE-sources.jar
+2020-05-07 19:26:04,004 [Worker-730: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.2.6.RELEASE/spring-boot-starter-oauth2-client-2.2.6.RELEASE-sources.jar
+2020-05-07 19:26:04,087 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:2.2.6.RELEASE
+2020-05-07 19:26:05,304 [Worker-730: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5-sources.jar
+2020-05-07 19:26:08,883 [Worker-730: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5-sources.jar
+2020-05-07 19:26:08,984 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:jakarta.mail:1.6.5
+2020-05-07 19:26:10,898 [Worker-730: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2-sources.jar
+2020-05-07 19:26:13,234 [Worker-730: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2-sources.jar
+2020-05-07 19:26:13,315 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.activation:jakarta.activation:1.2.2
+2020-05-07 19:26:13,320 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:2.2.6.RELEASE
+2020-05-07 19:26:13,324 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:jakarta.mail:1.6.5
+2020-05-07 19:26:13,327 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.activation:jakarta.activation:1.2.2
+2020-05-07 19:26:13,331 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:2.2.6.RELEASE
+2020-05-07 19:26:13,334 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:jakarta.mail:1.6.5
+2020-05-07 19:26:13,338 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.activation:jakarta.activation:1.2.2
+2020-05-07 19:26:13,344 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:2.2.6.RELEASE
+2020-05-07 19:26:13,347 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:jakarta.mail:1.6.5
+2020-05-07 19:26:13,352 [Worker-730: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.activation:jakarta.activation:1.2.2
+2020-05-07 19:26:13,826 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:26:13,826 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:26:13,827 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:26:13,828 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:26:13,829 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:32:07,061 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:32:07,062 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:32:07,065 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:32:07,068 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:32:07,068 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:33:34,310 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:33:34,312 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:33:34,316 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:33:34,318 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:33:34,319 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:33:50,447 [Worker-734: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:33:50,448 [Worker-734: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:33:50,451 [Worker-734: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:33:50,453 [Worker-734: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:33:50,453 [Worker-734: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:34:29,442 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:34:29,444 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:34:29,447 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:34:29,449 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:34:29,449 [Worker-730: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:35:32,369 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:35:32,370 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:35:32,374 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:35:32,376 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:35:32,377 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:36:44,645 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:36:44,645 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:36:44,646 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:36:44,652 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:36:44,653 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:36:52,788 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:36:52,789 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:36:52,789 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:36:52,794 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:36:52,795 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:37:13,382 [Worker-736: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:37:13,383 [Worker-736: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:37:13,384 [Worker-736: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:37:13,390 [Worker-736: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:37:13,390 [Worker-736: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:37:20,487 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:37:20,488 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:37:20,488 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:37:20,496 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:37:20,496 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:46:43,309 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsOkta_Client:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\pom.xml.
+2020-05-07 19:46:45,549 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-starter/1.4.0/okta-spring-boot-starter-1.4.0.pom
+2020-05-07 19:46:45,901 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-starter/1.4.0/okta-spring-boot-starter-1.4.0.pom
+2020-05-07 19:46:46,192 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-parent/1.4.0/okta-spring-boot-parent-1.4.0.pom
+2020-05-07 19:46:46,525 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-parent/1.4.0/okta-spring-boot-parent-1.4.0.pom
+2020-05-07 19:46:46,812 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/okta-parent/14/okta-parent-14.pom
+2020-05-07 19:46:47,988 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/okta-parent/14/okta-parent-14.pom
+2020-05-07 19:46:48,276 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/okta-aggregator/14/okta-aggregator-14.pom
+2020-05-07 19:46:48,839 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/okta-aggregator/14/okta-aggregator-14.pom
+2020-05-07 19:46:49,173 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom
+2020-05-07 19:46:54,986 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.2.4.RELEASE/spring-boot-dependencies-2.2.4.RELEASE.pom
+2020-05-07 19:46:55,283 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.3.2/micrometer-bom-1.3.2.pom
+2020-05-07 19:46:55,593 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.3.2/micrometer-bom-1.3.2.pom
+2020-05-07 19:46:55,920 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR4/reactor-bom-Dysprosium-SR4.pom
+2020-05-07 19:46:56,211 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR4/reactor-bom-Dysprosium-SR4.pom
+2020-05-07 19:46:56,501 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.25.v20191220/jetty-bom-9.4.25.v20191220.pom
+2020-05-07 19:46:57,068 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.25.v20191220/jetty-bom-9.4.25.v20191220.pom
+2020-05-07 19:46:57,355 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.3.61/kotlin-bom-1.3.61.pom
+2020-05-07 19:46:57,645 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.3.61/kotlin-bom-1.3.61.pom
+2020-05-07 19:46:57,929 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.3/kotlinx-coroutines-bom-1.3.3.pom
+2020-05-07 19:46:58,225 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.3/kotlinx-coroutines-bom-1.3.3.pom
+2020-05-07 19:46:58,511 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.3.RELEASE/spring-framework-bom-5.2.3.RELEASE.pom
+2020-05-07 19:46:58,839 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.3.RELEASE/spring-framework-bom-5.2.3.RELEASE.pom
+2020-05-07 19:46:59,140 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Moore-SR4/spring-data-releasetrain-Moore-SR4.pom
+2020-05-07 19:47:00,019 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Moore-SR4/spring-data-releasetrain-Moore-SR4.pom
+2020-05-07 19:47:00,308 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.2.4.RELEASE/spring-data-build-2.2.4.RELEASE.pom
+2020-05-07 19:47:00,624 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.2.4.RELEASE/spring-data-build-2.2.4.RELEASE.pom
+2020-05-07 19:47:00,909 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.2.3.RELEASE/spring-integration-bom-5.2.3.RELEASE.pom
+2020-05-07 19:47:01,466 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.2.3.RELEASE/spring-integration-bom-5.2.3.RELEASE.pom
+2020-05-07 19:47:01,749 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.2.1.RELEASE/spring-security-bom-5.2.1.RELEASE.pom
+2020-05-07 19:47:02,044 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.2.1.RELEASE/spring-security-bom-5.2.1.RELEASE.pom
+2020-05-07 19:47:02,367 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-security-oauth2/1.4.0/okta-spring-security-oauth2-1.4.0.pom
+2020-05-07 19:47:02,662 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-security-oauth2/1.4.0/okta-spring-security-oauth2-1.4.0.pom
+2020-05-07 19:47:02,956 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-config-check/1.2.2/okta-config-check-1.2.2.pom
+2020-05-07 19:47:03,278 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-config-check/1.2.2/okta-config-check-1.2.2.pom
+2020-05-07 19:47:03,597 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-root/1.2.2/okta-commons-root-1.2.2.pom
+2020-05-07 19:47:04,221 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-root/1.2.2/okta-commons-root-1.2.2.pom
+2020-05-07 19:47:04,523 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/okta-parent/16/okta-parent-16.pom
+2020-05-07 19:47:06,574 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/okta-parent/16/okta-parent-16.pom
+2020-05-07 19:47:06,857 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/okta-aggregator/16/okta-aggregator-16.pom
+2020-05-07 19:47:07,772 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/okta-aggregator/16/okta-aggregator-16.pom
+2020-05-07 19:47:08,065 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-lang/1.2.2/okta-commons-lang-1.2.2.pom
+2020-05-07 19:47:08,632 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-lang/1.2.2/okta-commons-lang-1.2.2.pom
+2020-05-07 19:47:10,255 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+2020-05-07 19:47:11,081 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
+2020-05-07 19:47:17,021 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+2020-05-07 19:47:17,395 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.2.2.RELEASE/spring-security-oauth2-resource-server-5.2.2.RELEASE.pom
+2020-05-07 19:47:18,021 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.2.2.RELEASE/spring-security-oauth2-resource-server-5.2.2.RELEASE.pom
+2020-05-07 19:47:18,305 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-sdk/1.4.0/okta-spring-sdk-1.4.0.pom
+2020-05-07 19:47:18,941 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-sdk/1.4.0/okta-spring-sdk-1.4.0.pom
+2020-05-07 19:47:19,392 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-starter/1.4.0/okta-spring-boot-starter-1.4.0.jar
+2020-05-07 19:47:19,738 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-starter/1.4.0/okta-spring-boot-starter-1.4.0.jar
+2020-05-07 19:47:20,046 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-security-oauth2/1.4.0/okta-spring-security-oauth2-1.4.0.jar
+2020-05-07 19:47:22,194 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-security-oauth2/1.4.0/okta-spring-security-oauth2-1.4.0.jar
+2020-05-07 19:47:22,474 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-config-check/1.2.2/okta-config-check-1.2.2.jar
+2020-05-07 19:47:22,807 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-config-check/1.2.2/okta-config-check-1.2.2.jar
+2020-05-07 19:47:23,078 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-lang/1.2.2/okta-commons-lang-1.2.2.jar
+2020-05-07 19:47:25,472 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-lang/1.2.2/okta-commons-lang-1.2.2.jar
+2020-05-07 19:47:25,748 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.2.2.RELEASE/spring-security-oauth2-resource-server-5.2.2.RELEASE.jar
+2020-05-07 19:47:28,269 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.2.2.RELEASE/spring-security-oauth2-resource-server-5.2.2.RELEASE.jar
+2020-05-07 19:47:28,548 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-sdk/1.4.0/okta-spring-sdk-1.4.0.jar
+2020-05-07 19:47:29,103 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-sdk/1.4.0/okta-spring-sdk-1.4.0.jar
+2020-05-07 19:47:29,557 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MongoNotes:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\MongoNotes\pom.xml.
+2020-05-07 19:47:29,882 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:jpa-one-to-one-demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\jpa-one-to-one-demo\pom.xml.
+2020-05-07 19:47:30,266 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-security-with-jwt:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt\pom.xml.
+2020-05-07 19:47:30,434 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-with-kafka:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\pom.xml.
+2020-05-07 19:47:30,826 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-redis-cache:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-cache\pom.xml.
+2020-05-07 19:47:31,180 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-redis-PubSub:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-PubSub\pom.xml.
+2020-05-07 19:47:31,361 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:jpa_composite_primary_key_demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_composite_primary_key_demo\pom.xml.
+2020-05-07 19:47:31,533 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-security-with-jwt-withUserRole:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt-withUserRole\pom.xml.
+2020-05-07 19:47:31,731 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GeeksForGeeks\demo\pom.xml.
+2020-05-07 19:47:31,956 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:EasyNotes:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\EasyNotes\pom.xml.
+2020-05-07 19:47:32,307 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:jpa_many_to_many_demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_many_to_many_demo\pom.xml.
+2020-05-07 19:47:32,477 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:jpa_one_to_many_demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_one_to_many_demo\pom.xml.
+2020-05-07 19:47:32,674 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-security-with-db:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-db\pom.xml.
+2020-05-07 19:47:32,855 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-social-OAUTH2:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-social-OAUTH2\pom.xml.
+2020-05-07 19:47:33,039 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:jpa_embeddable_Embedded_demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_embeddable_Embedded_demo\pom.xml.
+2020-05-07 19:47:33,193 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:jpa_elementCollection_CollectionTable_demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_elementCollection_CollectionTable_demo\pom.xml.
+2020-05-07 19:47:33,393 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-rest-security-demo:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-rest-security-demo\pom.xml.
+2020-05-07 19:47:33,556 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-oauth2:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withDefaultTokenStore\pom.xml.
+2020-05-07 19:47:33,791 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withJwtTokenStore:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStore\pom.xml.
+2020-05-07 19:47:34,031 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin\pom.xml.
+2020-05-07 19:47:34,332 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsAuthorizationServer:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\pom.xml.
+2020-05-07 19:47:34,484 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsClient:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\pom.xml.
+2020-05-07 19:47:34,665 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsOkta_Client:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\pom.xml.
+2020-05-07 19:47:37,427 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/main/java
+2020-05-07 19:47:37,428 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/main/resources
+2020-05-07 19:47:37,434 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/main/resources
+2020-05-07 19:47:37,441 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/test/java
+2020-05-07 19:47:37,774 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 55 sec
+2020-05-07 19:47:37,775 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-07 19:47:37,964 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsOkta_Client:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\pom.xml.
+2020-05-07 19:47:38,784 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/main/java
+2020-05-07 19:47:38,785 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/main/resources
+2020-05-07 19:47:38,786 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/main/resources
+2020-05-07 19:47:38,788 [Worker-742: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withOktaAsOkta_Client/src/test/java
+2020-05-07 19:47:38,945 [Worker-742: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-05-07 19:47:39,655 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:39,655 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:39,655 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:39,657 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:39,657 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\EasyNotes\src\test\resources
+2020-05-07 19:47:39,942 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:39,942 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:39,942 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:39,943 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:39,944 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\MongoNotes\src\test\resources
+2020-05-07 19:47:40,277 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:40,277 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:40,277 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:40,278 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:40,278 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GeeksForGeeks\demo\src\test\resources
+2020-05-07 19:47:40,414 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-starter/1.4.0/okta-spring-boot-starter-1.4.0-sources.jar
+2020-05-07 19:47:40,417 [Worker-744: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.okta.spring:okta-spring-boot-starter:1.4.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.okta.spring:okta-spring-boot-starter:jar:sources:1.4.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-05-07 19:47:40,530 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:40,530 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:40,530 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:40,531 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:40,531 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa-one-to-one-demo\src\test\resources
+2020-05-07 19:47:40,891 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:40,891 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:40,891 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:40,892 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:40,892 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_composite_primary_key_demo\src\test\resources
+2020-05-07 19:47:41,209 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:41,209 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:41,209 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:41,210 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:41,210 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_elementCollection_CollectionTable_demo\src\test\resources
+2020-05-07 19:47:41,553 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:41,554 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:41,554 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:41,555 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:41,555 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_embeddable_Embedded_demo\src\test\resources
+2020-05-07 19:47:41,970 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:41,970 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:41,971 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:41,972 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:41,972 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_many_to_many_demo\src\test\resources
+2020-05-07 19:47:42,261 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:42,262 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:42,262 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:42,263 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:42,263 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_one_to_many_demo\src\test\resources
+2020-05-07 19:47:42,654 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:42,654 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:42,654 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:42,655 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:42,655 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withDefaultTokenStore\src\test\resources
+2020-05-07 19:47:42,943 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:42,944 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:47:42,948 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:42,949 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:42,950 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStore\src\test\resources
+2020-05-07 19:47:43,042 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-security-oauth2/1.4.0/okta-spring-security-oauth2-1.4.0-sources.jar
+2020-05-07 19:47:44,546 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-security-oauth2/1.4.0/okta-spring-security-oauth2-1.4.0-sources.jar
+2020-05-07 19:47:44,611 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-security-oauth2:1.4.0
+2020-05-07 19:47:45,061 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:45,061 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:45,062 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:45,063 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:45,063 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin\src\test\resources
+2020-05-07 19:47:45,409 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:45,410 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:47:45,412 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:45,414 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:45,415 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsAuthorizationServer\src\test\resources
+2020-05-07 19:47:45,887 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:45,888 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:47:45,890 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 19:47:45,892 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:45,892 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 19:47:46,547 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-config-check/1.2.2/okta-config-check-1.2.2-sources.jar
+2020-05-07 19:47:46,828 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-config-check/1.2.2/okta-config-check-1.2.2-sources.jar
+2020-05-07 19:47:46,877 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-config-check:1.2.2
+2020-05-07 19:47:46,991 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:46,991 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:47:46,993 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:46,994 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:46,994 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:47:47,471 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:47,473 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:47:47,476 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:47,477 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:47,478 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-rest-security-demo\src\test\resources
+2020-05-07 19:47:47,930 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:47,931 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:47,931 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:47,932 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:47,932 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-db\src\test\resources
+2020-05-07 19:47:48,075 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-lang/1.2.2/okta-commons-lang-1.2.2-sources.jar
+2020-05-07 19:47:48,245 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:48,245 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:48,246 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:48,247 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:48,247 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt\src\test\resources
+2020-05-07 19:47:48,588 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:48,589 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:48,589 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:48,590 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:48,590 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt-withUserRole\src\test\resources
+2020-05-07 19:47:48,877 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:48,877 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:48,879 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:48,879 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:48,879 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-PubSub\src\test\resources
+2020-05-07 19:47:49,036 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/commons/okta-commons-lang/1.2.2/okta-commons-lang-1.2.2-sources.jar
+2020-05-07 19:47:49,119 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-commons-lang:1.2.2
+2020-05-07 19:47:49,561 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:49,561 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:49,562 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:49,563 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:49,563 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-cache\src\test\resources
+2020-05-07 19:47:50,270 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:50,271 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:47:50,274 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:50,276 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:50,276 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-social-OAUTH2\src\test\resources
+2020-05-07 19:47:50,920 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:50,920 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:50,920 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:50,921 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:50,921 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-07 19:47:51,417 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.2.2.RELEASE/spring-security-oauth2-resource-server-5.2.2.RELEASE-sources.jar
+2020-05-07 19:47:52,855 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/5.2.2.RELEASE/spring-security-oauth2-resource-server-5.2.2.RELEASE-sources.jar
+2020-05-07 19:47:52,944 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-resource-server:5.2.2.RELEASE
+2020-05-07 19:47:54,121 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-sdk/1.4.0/okta-spring-sdk-1.4.0-sources.jar
+2020-05-07 19:47:54,412 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-sdk/1.4.0/okta-spring-sdk-1.4.0-sources.jar
+2020-05-07 19:47:54,453 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-sdk:1.4.0
+2020-05-07 19:47:55,930 [Worker-744: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/okta/spring/okta-spring-boot-starter/1.4.0/okta-spring-boot-starter-1.4.0-javadoc.jar
+2020-05-07 19:47:55,932 [Worker-744: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.okta.spring:okta-spring-boot-starter:1.4.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.okta.spring:okta-spring-boot-starter:jar:javadoc:1.4.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-05-07 19:47:55,936 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-security-oauth2:1.4.0
+2020-05-07 19:47:55,939 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-config-check:1.2.2
+2020-05-07 19:47:55,942 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-commons-lang:1.2.2
+2020-05-07 19:47:55,944 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-resource-server:5.2.2.RELEASE
+2020-05-07 19:47:55,947 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-sdk:1.4.0
+2020-05-07 19:47:55,983 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-security-oauth2:1.4.0
+2020-05-07 19:47:55,985 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-config-check:1.2.2
+2020-05-07 19:47:55,988 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-commons-lang:1.2.2
+2020-05-07 19:47:55,989 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-resource-server:5.2.2.RELEASE
+2020-05-07 19:47:55,991 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-sdk:1.4.0
+2020-05-07 19:47:55,995 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-security-oauth2:1.4.0
+2020-05-07 19:47:55,997 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-config-check:1.2.2
+2020-05-07 19:47:55,999 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.commons:okta-commons-lang:1.2.2
+2020-05-07 19:47:56,001 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-resource-server:5.2.2.RELEASE
+2020-05-07 19:47:56,003 [Worker-744: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.okta.spring:okta-spring-sdk:1.4.0
+2020-05-07 19:47:56,360 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:56,361 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:56,361 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:47:56,362 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:47:56,362 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:48:45,938 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:48:45,938 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:48:45,939 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:48:45,940 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:48:45,941 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:49:07,492 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:49:07,493 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:49:07,494 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:49:07,495 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:49:07,496 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:49:34,596 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:49:34,597 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:49:34,597 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:49:34,601 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:49:34,601 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:49:42,230 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:49:42,231 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:49:42,231 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:49:42,234 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:49:42,234 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:50:02,551 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:02,552 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:50:02,552 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:50:02,555 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:02,555 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:50:10,526 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:10,527 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:50:10,527 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:50:10,530 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:10,530 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:50:33,794 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:33,795 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:50:33,796 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 19:50:33,798 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:33,798 [Worker-744: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:50:48,809 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:48,811 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:50:48,813 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 19:50:48,815 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:50:48,815 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:51:14,440 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:51:14,441 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:51:14,444 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 19:51:14,447 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:51:14,447 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:51:39,337 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:51:39,338 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:51:39,340 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 19:51:39,342 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:51:39,342 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 19:57:09,653 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:57:09,654 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 19:57:09,655 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 19:57:09,656 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 19:57:09,656 [Worker-753: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 20:02:26,975 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:02:26,975 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:02:26,975 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:02:26,978 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:02:26,978 [Worker-746: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 20:06:49,929 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:06:49,930 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:06:49,930 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:06:49,935 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:06:49,935 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 20:07:03,577 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:07:03,577 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:07:03,578 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:07:03,581 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:07:03,582 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 20:13:14,033 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:13:14,034 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:13:14,034 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:13:14,037 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:13:14,037 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 20:16:14,495 [Worker-763: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:16:14,496 [Worker-763: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:16:14,497 [Worker-763: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:16:14,498 [Worker-763: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:16:14,498 [Worker-763: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 20:31:17,136 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:31:17,136 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:31:17,137 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:31:17,138 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:31:17,138 [Worker-767: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 20:37:06,726 [Worker-766: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsOkta_Client:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\pom.xml.
+2020-05-07 20:37:08,843 [Worker-766: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.pom
+2020-05-07 20:37:09,447 [Worker-766: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.pom
+2020-05-07 20:37:10,536 [Worker-766: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar
+2020-05-07 20:37:11,156 [Worker-766: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar
+2020-05-07 20:37:12,580 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:12,580 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:37:12,581 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:37:12,582 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:12,582 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 20:37:14,445 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:14,447 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:37:14,450 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 20:37:14,456 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:14,457 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 20:37:15,673 [Worker-765: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE-sources.jar
+2020-05-07 20:37:15,894 [Worker-771: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsOkta_Client:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\pom.xml.
+2020-05-07 20:37:16,525 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:16,525 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:37:16,525 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:37:16,526 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:16,526 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 20:37:16,598 [Worker-765: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE-sources.jar
+2020-05-07 20:37:16,652 [Worker-765: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE
+2020-05-07 20:37:17,205 [Worker-765: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE
+2020-05-07 20:37:17,747 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:17,747 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:37:17,747 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:37:17,748 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:37:17,749 [Worker-771: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-07 20:38:08,788 [Worker-766: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsClient:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\pom.xml.
+2020-05-07 20:38:09,438 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:38:09,439 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:38:09,439 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-07 20:38:09,440 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:38:09,440 [Worker-766: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-07 20:38:11,235 [Worker-773: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:38:11,236 [Worker-773: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-07 20:38:11,239 [Worker-773: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-07 20:38:11,247 [Worker-773: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-07 20:38:11,247 [Worker-773: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsClient\src\test\resources
+2020-05-08 10:21:28,741 [Worker-846: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withOktaAsOkta_Client:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\pom.xml.
+2020-05-08 10:21:30,735 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:21:30,736 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-08 10:21:30,736 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-08 10:21:30,738 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:21:30,739 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:21:33,317 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:21:33,318 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:21:33,322 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-08 10:21:33,331 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:21:33,331 [Worker-846: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:22:51,257 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:22:51,259 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:22:51,261 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-08 10:22:51,262 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:22:51,263 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:24:50,669 [Worker-845: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:24:50,670 [Worker-845: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:24:50,671 [Worker-845: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-08 10:24:50,672 [Worker-845: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:24:50,672 [Worker-845: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:25:38,559 [Worker-843: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:25:38,559 [Worker-843: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:25:38,560 [Worker-843: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-08 10:25:38,562 [Worker-843: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:25:38,562 [Worker-843: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:27:25,701 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:27:25,701 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-08 10:27:25,701 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:27:25,706 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:27:25,707 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:32:39,890 [Worker-849: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:32:39,891 [Worker-849: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:32:39,894 [Worker-849: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-08 10:32:39,896 [Worker-849: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:32:39,896 [Worker-849: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-08 10:42:18,039 [Worker-852: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 10:42:18,040 [Worker-852: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-08 10:42:18,041 [Worker-852: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-08 10:42:18,042 [Worker-852: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
