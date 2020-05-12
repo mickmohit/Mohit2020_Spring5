@@ -1,6 +1,0 @@
-package com.example.demo.publisher;
-
-public interface MessagePublisher {
-
-	void publish();
-}

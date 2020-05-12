@@ -34,7 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private UserDetailsService userDetailsService;
 
     @Autowired
-    private ClientDetailsService clientDetailsService;
+    private ClientDetailsService clientDetailsService;// this is to create and get OAuth2 client details which in our case is hardcoded in authorization server mohit-client
 
     @Override
     @Bean

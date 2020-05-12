@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="registrationProcess"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="registrationProcess"/>
-			<item value="userName"/>
-			<item value="Going from 1"/>
-			<item value="spring"/>
-			<item value="form:label"/>
-			<item value="form:label "/>
-			<item value="th:"/>
-			<item value="Roles"/>
-			<item value="roles"/>
-			<item value="redisTemplate"/>
-			<item value="redisCustomerService"/>
-			<item value="User"/>
-			<item value="counter"/>
-			<item value="jedisConnectionFactory"/>
-			<item value="Post"/>
+			<item value="maven-compiler-plugin"/>
+			<item value="TokenStore"/>
+			<item value="tokenStore"/>
+			<item value="oauthClientPasswordEncoder"/>
+			<item value="ServerSecurityConfig"/>
+			<item value="AccessTokenConverter"/>
+			<item value="accessTokenConverter"/>
+			<item value="GRANT_TYPE"/>
+			<item value="jwtAuthenticationEntryPointHandler"/>
 		</list>
 		<list key="replacehistory">
 			<item value="label"/>
@@ -36,8 +30,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1155"/>
-		<item key="DIALOG_Y_ORIGIN" value="124"/>
+		<item key="DIALOG_X_ORIGIN" value="1424"/>
+		<item key="DIALOG_Y_ORIGIN" value="362"/>
 		<item key="DIALOG_WIDTH" value="336"/>
 		<item key="DIALOG_HEIGHT" value="466"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

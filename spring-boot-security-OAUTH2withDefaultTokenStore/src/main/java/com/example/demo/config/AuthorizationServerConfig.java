@@ -42,6 +42,13 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	@Autowired
     private UserApprovalHandler userApprovalHandler;//A user approval handler that remembers approval decisions by consulting existing approvals.
 	
+	
+	//here in below method we could have used configurer.withClientDetails(customClientDetailsService)
+	// to aunthentify OAUTH2 client instead of using inMemory() method..in this authorization server we are
+	//using harcoded client crendentials and we can use customClientDetailsService to create our own user details
+	//and save it db..refrences are below
+	// https://blog.couchbase.com/oauth-2-dynamic-client-registration/
+	//https://stackoverflow.com/questions/40866037/spring-security-oauth2-custom-clientdetailsservice
 	@Override
 	public void configure(ClientDetailsServiceConfigurer configurer) throws Exception {
 
