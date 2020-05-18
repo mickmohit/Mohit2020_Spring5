@@ -18521,3 +18521,566 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.pivotal.sp
 2020-05-12 18:03:10,620 [Worker-359: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-12 18:03:10,622 [Worker-359: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-12 18:03:10,626 [Worker-359: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-12 18:03:10,628 [Worker-359: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-12 18:03:10,628 [Worker-359: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\src\test\resources
+2020-05-13 10:11:13,860 [Worker-460: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\target\generated-sources\annotations added.
+2020-05-13 10:11:13,863 [Worker-460: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 10:11:13,864 [Worker-460: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-13 10:11:13,865 [Worker-460: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-13 10:11:13,867 [Worker-460: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 10:11:13,867 [Worker-460: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\src\test\resources
+2020-05-13 10:11:30,696 [Worker-469: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\target\generated-sources\annotations added.
+2020-05-13 10:11:30,697 [Worker-469: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 10:11:30,697 [Worker-469: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-13 10:11:30,699 [Worker-469: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-13 10:11:30,701 [Worker-469: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 10:11:30,701 [Worker-469: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\src\test\resources
+2020-05-13 11:17:31,619 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 11:17:31,621 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-13 11:17:31,623 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-13 11:17:31,624 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 11:17:31,624 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withDefaultTokenStore\src\test\resources
+2020-05-13 11:17:41,758 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 11:17:41,759 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-13 11:17:41,761 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-13 11:17:41,762 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 11:17:41,762 [Worker-486: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withDefaultTokenStore\src\test\resources
+2020-05-18 12:34:29,577 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-18 12:35:14,436 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:14,441 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:14,456 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:14,458 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:14,459 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\EasyNotes\src\test\resources
+2020-05-18 12:35:19,366 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:19,367 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:19,371 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:19,374 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:19,374 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\MajorProject-UserService\src\test\resources
+2020-05-18 12:35:21,999 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:21,999 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:22,001 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:22,003 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:22,003 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\MajorProject-WalletService\src\test\resources
+2020-05-18 12:35:23,294 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:23,295 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:23,297 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:23,299 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:23,299 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\MongoNotes\src\test\resources
+2020-05-18 12:35:24,310 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:24,311 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:24,316 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:24,320 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:24,320 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GeeksForGeeks\demo\src\test\resources
+2020-05-18 12:35:25,342 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:25,342 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:25,344 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:25,347 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:25,347 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa-one-to-one-demo\src\test\resources
+2020-05-18 12:35:26,134 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:26,135 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:26,137 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:26,140 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:26,140 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_composite_primary_key_demo\src\test\resources
+2020-05-18 12:35:27,194 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:27,195 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:27,196 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:27,200 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:27,200 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_elementCollection_CollectionTable_demo\src\test\resources
+2020-05-18 12:35:28,142 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:28,143 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:28,146 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:28,149 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:28,149 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_embeddable_Embedded_demo\src\test\resources
+2020-05-18 12:35:29,072 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:29,073 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:29,075 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:29,077 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:29,077 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_many_to_many_demo\src\test\resources
+2020-05-18 12:35:29,860 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:29,860 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:29,865 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:29,868 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:29,868 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\jpa_one_to_many_demo\src\test\resources
+2020-05-18 12:35:30,965 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:30,966 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:30,968 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:30,971 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:30,971 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withDefaultTokenStore\src\test\resources
+2020-05-18 12:35:31,962 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:31,963 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:31,968 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:31,971 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:31,971 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStore\src\test\resources
+2020-05-18 12:35:34,019 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\target\generated-sources\annotations added.
+2020-05-18 12:35:34,022 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:34,023 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:34,030 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-18 12:35:34,087 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:34,088 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\src\test\resources
+2020-05-18 12:35:36,381 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:36,382 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:36,383 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-05-18 12:35:36,395 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:36,395 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin\src\test\resources
+2020-05-18 12:35:37,757 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:37,758 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:37,760 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-18 12:35:37,771 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:37,771 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withOktaAsOkta_Client\src\test\resources
+2020-05-18 12:35:39,213 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:39,214 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:39,216 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:39,228 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:39,228 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withWebClient\src\test\resources
+2020-05-18 12:35:40,401 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:40,402 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:40,404 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:40,406 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:40,407 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-rest-security-demo\src\test\resources
+2020-05-18 12:35:41,421 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:41,421 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:41,423 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:41,428 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:41,428 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-db\src\test\resources
+2020-05-18 12:35:42,374 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:42,375 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:42,377 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:42,379 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:42,379 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt\src\test\resources
+2020-05-18 12:35:43,418 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:43,418 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:43,420 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:43,422 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:43,422 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-security-with-jwt-withUserRole\src\test\resources
+2020-05-18 12:35:44,169 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:44,170 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:44,171 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:44,174 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:44,174 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-PubSub\src\test\resources
+2020-05-18 12:35:44,844 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:44,845 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:44,846 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:44,849 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:44,849 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-cache\src\test\resources
+2020-05-18 12:35:45,942 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:45,943 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:45,944 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:45,945 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:45,946 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-social-OAUTH2\src\test\resources
+2020-05-18 12:35:46,864 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:46,865 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:35:46,866 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:35:46,868 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:35:46,869 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-18 12:36:01,991 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-FullStack_withReact:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\pom.xml.
+2020-05-18 12:36:03,128 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/main/java
+2020-05-18 12:36:03,130 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 12:36:03,139 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 12:36:03,151 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/test/java
+2020-05-18 12:36:04,086 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2020-05-18 12:36:04,090 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-18 12:36:05,013 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-FullStack_withReact:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\pom.xml.
+2020-05-18 12:36:06,675 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/main/java
+2020-05-18 12:36:06,676 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 12:36:06,678 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 12:36:06,682 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/test/java
+2020-05-18 12:36:07,190 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-05-18 12:36:09,443 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:36:09,443 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:36:09,445 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:36:09,447 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:36:09,447 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:36:10,708 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:36:10,710 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:36:10,711 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:36:10,712 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:36:10,712 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:46:36,902 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:46:36,904 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:46:36,906 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:46:36,908 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:46:36,908 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:46:54,717 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:46:54,718 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:46:54,720 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:46:54,723 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:46:54,723 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:47:30,228 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:47:30,229 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:47:30,231 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:47:30,233 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:47:30,233 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:48:25,705 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:48:25,707 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:48:25,708 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:48:25,710 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:48:25,710 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:50:05,619 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:50:05,619 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:50:05,621 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:50:05,623 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:50:05,623 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:52:15,852 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:52:15,853 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:52:15,856 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:52:15,857 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:52:15,857 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:52:34,519 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:52:34,520 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:52:34,522 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:52:34,523 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:52:34,523 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 12:52:52,460 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:52:52,461 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 12:52:52,463 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 12:52:52,466 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 12:52:52,466 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:29:24,480 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:29:24,482 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:29:24,484 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:29:24,486 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:29:24,486 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:29:47,440 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:29:47,441 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:29:47,443 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:29:47,445 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:29:47,445 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:30:07,286 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:30:07,288 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:30:07,290 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:30:07,291 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:30:07,291 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:30:16,898 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:30:16,899 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:30:16,900 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:30:16,902 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:30:16,902 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:30:29,297 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:30:29,297 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:30:29,299 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:30:29,300 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:30:29,300 [Worker-109: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:31:16,498 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:31:16,499 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:31:16,500 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:31:16,502 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:31:16,502 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:32:15,531 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:32:15,532 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:32:15,534 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:32:15,536 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:32:15,536 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 18:33:01,457 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:33:01,458 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 18:33:01,460 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 18:33:01,461 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:33:01,461 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 19:33:18,126 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-maven-plugin/1.6/frontend-maven-plugin-1.6.pom
+2020-05-18 19:33:18,478 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-maven-plugin/1.6/frontend-maven-plugin-1.6.pom
+2020-05-18 19:33:18,802 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugins/1.6/frontend-plugins-1.6.pom
+2020-05-18 19:33:19,194 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugins/1.6/frontend-plugins-1.6.pom
+2020-05-18 19:33:19,784 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-maven-plugin/1.6/frontend-maven-plugin-1.6.jar
+2020-05-18 19:33:20,519 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-maven-plugin/1.6/frontend-maven-plugin-1.6.jar
+2020-05-18 19:33:21,069 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar
+2020-05-18 19:33:21,514 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar
+2020-05-18 19:33:22,031 [Worker-124: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-FullStack_withReact:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\pom.xml.
+2020-05-18 19:33:23,184 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.pom
+2020-05-18 19:33:23,528 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.pom
+2020-05-18 19:33:23,865 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom
+2020-05-18 19:33:24,232 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom
+2020-05-18 19:33:24,574 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom
+2020-05-18 19:33:24,908 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom
+2020-05-18 19:33:25,246 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+2020-05-18 19:33:25,619 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+2020-05-18 19:33:25,963 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+2020-05-18 19:33:26,303 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+2020-05-18 19:33:26,635 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+2020-05-18 19:33:27,000 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+2020-05-18 19:33:27,368 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom
+2020-05-18 19:33:27,724 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom
+2020-05-18 19:33:28,069 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.1/httpcomponents-client-4.5.1.pom
+2020-05-18 19:33:28,440 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.1/httpcomponents-client-4.5.1.pom
+2020-05-18 19:33:28,787 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.pom
+2020-05-18 19:33:29,135 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.pom
+2020-05-18 19:33:29,466 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.3/httpcomponents-core-4.4.3.pom
+2020-05-18 19:33:29,858 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.3/httpcomponents-core-4.4.3.pom
+2020-05-18 19:33:30,235 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2020-05-18 19:33:30,598 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2020-05-18 19:33:30,929 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2020-05-18 19:33:31,270 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2020-05-18 19:33:31,601 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+2020-05-18 19:33:31,947 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+2020-05-18 19:33:32,272 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+2020-05-18 19:33:32,635 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+2020-05-18 19:33:32,976 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+2020-05-18 19:33:33,333 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+2020-05-18 19:33:33,694 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+2020-05-18 19:33:34,032 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+2020-05-18 19:33:34,361 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+2020-05-18 19:33:34,724 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+2020-05-18 19:33:35,077 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+2020-05-18 19:33:35,433 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+2020-05-18 19:33:35,801 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+2020-05-18 19:33:36,157 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+2020-05-18 19:33:36,511 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+2020-05-18 19:33:36,856 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+2020-05-18 19:33:37,200 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+2020-05-18 19:33:37,548 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+2020-05-18 19:33:37,881 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom
+2020-05-18 19:33:38,243 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom
+2020-05-18 19:33:38,587 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom
+2020-05-18 19:33:38,947 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom
+2020-05-18 19:33:39,289 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+2020-05-18 19:33:39,666 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+2020-05-18 19:33:40,013 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+2020-05-18 19:33:40,385 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+2020-05-18 19:33:40,722 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+2020-05-18 19:33:41,069 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+2020-05-18 19:33:41,404 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+2020-05-18 19:33:42,094 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+2020-05-18 19:33:42,431 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+2020-05-18 19:33:42,767 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+2020-05-18 19:33:43,113 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+2020-05-18 19:33:43,469 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+2020-05-18 19:33:43,849 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.jar
+2020-05-18 19:33:44,434 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.jar
+2020-05-18 19:33:44,776 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar
+2020-05-18 19:33:46,309 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar
+2020-05-18 19:33:46,725 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar
+2020-05-18 19:33:47,738 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar
+2020-05-18 19:33:48,059 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+2020-05-18 19:33:48,752 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+2020-05-18 19:33:49,079 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+2020-05-18 19:33:49,570 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+2020-05-18 19:33:49,903 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar
+2020-05-18 19:33:53,205 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar
+2020-05-18 19:33:53,539 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar
+2020-05-18 19:33:55,444 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar
+2020-05-18 19:33:55,782 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2020-05-18 19:33:56,448 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2020-05-18 19:33:56,781 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar
+2020-05-18 19:33:58,239 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar
+2020-05-18 19:33:58,564 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2020-05-18 19:33:59,006 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2020-05-18 19:33:59,341 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+2020-05-18 19:33:59,943 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+2020-05-18 19:34:00,321 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+2020-05-18 19:34:01,284 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+2020-05-18 19:34:01,595 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+2020-05-18 19:34:02,089 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+2020-05-18 19:34:02,423 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+2020-05-18 19:34:03,814 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+2020-05-18 19:34:04,143 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+2020-05-18 19:34:04,647 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+2020-05-18 19:34:04,971 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2020-05-18 19:34:05,341 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2020-05-18 19:34:05,684 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+2020-05-18 19:34:12,566 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+2020-05-18 19:34:12,882 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+2020-05-18 19:34:13,328 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+2020-05-18 19:34:13,655 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+2020-05-18 19:34:15,515 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+2020-05-18 19:34:15,853 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+2020-05-18 19:34:16,881 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+2020-05-18 19:34:17,198 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+2020-05-18 19:34:17,643 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+2020-05-18 19:34:17,968 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar
+2020-05-18 19:34:18,423 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar
+2020-05-18 19:34:18,829 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+2020-05-18 19:34:19,167 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+2020-05-18 19:34:20,346 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:34:20,348 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:34:20,350 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:34:20,351 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:34:20,351 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:34:20,352 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:34:20,352 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 19:34:22,931 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom
+2020-05-18 19:34:23,318 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom
+2020-05-18 19:34:23,649 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom
+2020-05-18 19:34:24,312 [Worker-124: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom
+2020-05-18 19:34:24,878 [Worker-128: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-FullStack_withReact:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\pom.xml.
+2020-05-18 19:34:25,408 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:34:25,409 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:34:25,410 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:34:25,411 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:34:25,411 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:34:25,412 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:34:25,412 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 19:36:01,481 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-18 19:36:05,473 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-FullStack_withReact:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\pom.xml.
+2020-05-18 19:36:05,815 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-with-kafka:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\pom.xml.
+2020-05-18 19:36:06,175 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-social-OAUTH2:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-social-OAUTH2\pom.xml.
+2020-05-18 19:36:08,057 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2020-05-18 19:36:08,409 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+2020-05-18 19:36:08,801 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
+2020-05-18 19:36:09,155 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
+2020-05-18 19:36:09,505 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+2020-05-18 19:36:09,862 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+2020-05-18 19:36:10,208 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+2020-05-18 19:36:10,573 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+2020-05-18 19:36:11,046 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17.pom
+2020-05-18 19:36:11,397 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17.pom
+2020-05-18 19:36:11,801 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+2020-05-18 19:36:12,139 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+2020-05-18 19:36:12,476 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17.jar
+2020-05-18 19:36:14,880 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17.jar
+2020-05-18 19:36:15,099 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:springBoot-redis-PubSub:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-PubSub\pom.xml.
+2020-05-18 19:36:16,223 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.f.lib.NodeInstaller - Installing node version v8.9.4
+2020-05-18 19:36:16,224 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.f.lib.NodeInstaller - Downloading https://nodejs.org/dist/v8.9.4/win-x64/node.exe to C:\Mohit_Personal\Spring Softwares\Personal_Maven_Repo\.m2\repository\com\github\eirslett\node\8.9.4\node-8.9.4-win-x64.exe
+2020-05-18 19:36:16,226 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.ProxyConfig - No proxies configured
+2020-05-18 19:36:16,226 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.f.lib.FileDownloader - No proxy was configured, downloading directly
+2020-05-18 19:36:18,389 [Worker-130: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5-sources.jar
+2020-05-18 19:36:18,744 [Worker-130: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5-sources.jar
+2020-05-18 19:36:18,796 [Worker-130: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:lang-tag:1.5
+2020-05-18 19:36:20,167 [Worker-130: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17-sources.jar
+2020-05-18 19:36:22,221 [Worker-130: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/8.17/nimbus-jose-jwt-8.17-sources.jar
+2020-05-18 19:36:22,267 [Worker-130: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:nimbus-jose-jwt:8.17
+2020-05-18 19:36:27,236 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.f.lib.NodeInstaller - Copying node binary from C:\Mohit_Personal\Spring Softwares\Personal_Maven_Repo\.m2\repository\com\github\eirslett\node\8.9.4\node-8.9.4-win-x64.exe to C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\target\node\node.exe
+2020-05-18 19:36:27,319 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.f.lib.NodeInstaller - Installed node locally.
+2020-05-18 19:36:27,321 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - Installing npm version 5.6.0
+2020-05-18 19:36:27,322 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - Downloading https://registry.npmjs.org/npm/-/npm-5.6.0.tgz to C:\Mohit_Personal\Spring Softwares\Personal_Maven_Repo\.m2\repository\com\github\eirslett\npm\5.6.0\npm-5.6.0.tar.gz
+2020-05-18 19:36:27,322 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.ProxyConfig - No proxies configured
+2020-05-18 19:36:27,322 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.f.lib.FileDownloader - No proxy was configured, downloading directly
+2020-05-18 19:36:30,151 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - Unpacking C:\Mohit_Personal\Spring Softwares\Personal_Maven_Repo\.m2\repository\com\github\eirslett\npm\5.6.0\npm-5.6.0.tar.gz into C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\target\node\node_modules
+2020-05-18 19:36:40,117 [Worker-124: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - Installed npm locally.
+2020-05-18 19:36:40,253 [Worker-124: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/main/java
+2020-05-18 19:36:40,254 [Worker-124: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 19:36:40,254 [Worker-124: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 19:36:40,255 [Worker-124: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/test/java
+2020-05-18 19:36:41,007 [Worker-124: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 39 sec
+2020-05-18 19:36:46,780 [Worker-137: Building workspace] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v8.9.4 is already installed.
+2020-05-18 19:36:47,088 [Worker-137: Building workspace] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - NPM 5.6.0 is already installed.
+2020-05-18 19:36:47,097 [Worker-137: Building workspace] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\frontend
+2020-05-18 19:36:59,541 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN react-scripts@3.4.1 requires a peer of typescript@^3.2.1 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:36:59,541 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - up to date in 9.94s
+2020-05-18 19:36:59,546 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN sass-loader@8.0.2 requires a peer of node-sass@^4.0.0 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:36:59,558 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN sass-loader@8.0.2 requires a peer of sass@^1.3.0 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:36:59,569 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN sass-loader@8.0.2 requires a peer of fibers@>= 3.1.0 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:36:59,579 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN tsutils@3.17.1 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:36:59,589 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:36:59,601 [Worker-137: Building workspace] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm run build' in C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\frontend
+2020-05-18 19:37:00,141 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:00,141 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - > frontend@0.1.0 build C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\frontend
+2020-05-18 19:37:00,141 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - > react-scripts build
+2020-05-18 19:37:00,141 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:02,363 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Creating an optimized production build...
+2020-05-18 19:37:21,271 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Compiled successfully.
+2020-05-18 19:37:21,271 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,271 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - File sizes after gzip:
+2020-05-18 19:37:21,271 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,308 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   93.64 KB  build\static\js\2.9dbb9668.chunk.js
+2020-05-18 19:37:21,308 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   2.22 KB   build\static\js\main.f65fd65e.chunk.js
+2020-05-18 19:37:21,308 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   770 B     build\static\js\runtime-main.8dc0443e.js
+2020-05-18 19:37:21,308 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   278 B     build\static\css\main.5ecd60fb.chunk.css
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - The project was built assuming it is hosted at /.
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - You can control this with the homepage field in your package.json.
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - The build folder is ready to be deployed.
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - You may serve it with a static server:
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   npm install -g serve
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   serve -s build
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Find out more about deployment here:
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   bit.ly/CRA-deploy
+2020-05-18 19:37:21,309 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:21,388 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:21,389 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 19:37:21,401 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:21,404 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:21,404 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 19:37:21,738 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-18 19:37:26,177 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-FullStack_withReact:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\pom.xml.
+2020-05-18 19:37:26,527 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-security-OAUTH2withJwtTokenStoreExternalStore:0.0.1-SNAPSHOT @ C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\pom.xml.
+2020-05-18 19:37:28,731 [Worker-121: Updating Maven Project] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v8.9.4 is already installed.
+2020-05-18 19:37:28,858 [Worker-121: Updating Maven Project] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - NPM 5.6.0 is already installed.
+2020-05-18 19:37:28,972 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/main/java
+2020-05-18 19:37:28,972 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 19:37:28,973 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-FullStack_withReact/src/main/resources
+2020-05-18 19:37:28,973 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-FullStack_withReact/src/test/java
+2020-05-18 19:37:29,231 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\target\generated-sources\annotations added.
+2020-05-18 19:37:29,232 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore/src/main/java
+2020-05-18 19:37:29,233 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore/target/generated-sources/annotations
+2020-05-18 19:37:29,233 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore/src/main/resources
+2020-05-18 19:37:29,233 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore/src/main/resources
+2020-05-18 19:37:29,233 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore/src/test/java
+2020-05-18 19:37:30,027 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2020-05-18 19:37:33,020 [Worker-143: Building workspace] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v8.9.4 is already installed.
+2020-05-18 19:37:33,028 [Worker-143: Building workspace] INFO  c.g.e.m.p.frontend.lib.NPMInstaller - NPM 5.6.0 is already installed.
+2020-05-18 19:37:33,031 [Worker-143: Building workspace] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\frontend
+2020-05-18 19:37:42,095 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN react-scripts@3.4.1 requires a peer of typescript@^3.2.1 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:37:42,095 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - up to date in 8.228s
+2020-05-18 19:37:42,096 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN sass-loader@8.0.2 requires a peer of node-sass@^4.0.0 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:37:42,106 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN sass-loader@8.0.2 requires a peer of sass@^1.3.0 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:37:42,116 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN sass-loader@8.0.2 requires a peer of fibers@>= 3.1.0 but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:37:42,125 [Exec Stream Pumper] WARN  c.g.e.m.p.f.lib.DefaultNpmRunner - npm WARN tsutils@3.17.1 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+2020-05-18 19:37:42,134 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:42,145 [Worker-143: Building workspace] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm run build' in C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\frontend
+2020-05-18 19:37:42,614 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:42,614 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - > frontend@0.1.0 build C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\frontend
+2020-05-18 19:37:42,614 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - > react-scripts build
+2020-05-18 19:37:42,614 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:44,751 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Creating an optimized production build...
+2020-05-18 19:37:51,797 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Compiled successfully.
+2020-05-18 19:37:51,797 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,797 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - File sizes after gzip:
+2020-05-18 19:37:51,797 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   93.64 KB  build\static\js\2.9dbb9668.chunk.js
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   2.22 KB   build\static\js\main.f65fd65e.chunk.js
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   770 B     build\static\js\runtime-main.8dc0443e.js
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   278 B     build\static\css\main.5ecd60fb.chunk.css
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - The project was built assuming it is hosted at /.
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - You can control this with the homepage field in your package.json.
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - The build folder is ready to be deployed.
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - You may serve it with a static server:
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   npm install -g serve
+2020-05-18 19:37:51,836 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   serve -s build
+2020-05-18 19:37:51,837 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,837 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Find out more about deployment here:
+2020-05-18 19:37:51,837 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,837 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner -   bit.ly/CRA-deploy
+2020-05-18 19:37:51,837 [Exec Stream Pumper] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2020-05-18 19:37:51,925 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:51,925 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 19:37:51,936 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:51,938 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:51,938 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 19:37:53,277 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\target\generated-sources\annotations added.
+2020-05-18 19:37:53,280 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:53,281 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 19:37:53,285 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-18 19:37:53,325 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:53,325 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore\src\test\resources
+2020-05-18 19:37:53,824 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:53,825 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:53,826 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:53,828 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:53,828 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-redis-PubSub\src\test\resources
+2020-05-18 19:37:54,320 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:54,321 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-18 19:37:54,325 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:54,327 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:54,328 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-social-OAUTH2\src\test\resources
+2020-05-18 19:37:55,061 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:55,061 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:55,061 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:37:55,063 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:37:55,063 [Worker-143: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\springBoot-with-kafka\src\test\resources
+2020-05-18 19:38:19,590 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:38:19,591 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:38:19,593 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:38:19,593 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:38:19,593 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-18 19:38:19,594 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 19:38:19,594 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact\src\test\resources
+2020-05-18 19:39:05,675 [Worker-136: Launching Executing install in C__Mohit_Personal_GFG-MohitPractiseJava_spring-boot-FullStack_withReact] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Mohit_Personal\GFG-MohitPractiseJava\spring-boot-FullStack_withReact
+2020-05-18 19:39:05,676 [Worker-136: Launching Executing install in C__Mohit_Personal_GFG-MohitPractiseJava_spring-boot-FullStack_withReact] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -s C:\Users\Mohit.Darmwal\.m2\mohit-settings.xml install -Dstyle.color=always
+2020-05-18 19:39:55,083 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:39:55,084 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping npm install as package.json unchanged
+2020-05-18 19:39:55,085 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

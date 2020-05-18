@@ -74,7 +74,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
  * this class extends AuthorizationServerConfigurerAdapter and is responsible
  * for generating tokens specific to a client.Suppose, if a user wants to login
  * to mohit.com via facebook then facebook auth server will be generating
- * tokens for Devglan.In this case, Devglan becomes the client which will be
+ * tokens for a website/client.In this case, website/client becomes the client which will be
  * requesting for authorization code on behalf of user from facebook - the
  * authorization server. Following is a similar implementation that facebook
  * will be using.
