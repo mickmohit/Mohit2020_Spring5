@@ -22,6 +22,12 @@ run kafka server
 create topic in kafka
 ---C:\Softwares\kafka_2.13-2.5.0\bin\windows>kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic {topic_name}
 
+send some message
+--C:\Softwares\kafka_2.13-2.5.0\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic test 
+
+consume the message
+--C:\Softwares\kafka_2.13-2.5.0\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning   
+
 run producer/consumer from application.
 
 to check consumer group created
