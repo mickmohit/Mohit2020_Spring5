@@ -32,3 +32,7 @@ run producer/consumer from application.
 
 to check consumer group created
 ---C:\Softwares\kafka_2.13-2.5.0\bin\windows>kafka-consumer-groups --bootstrap-server localhost:9092 --describe --all-groups
+
+Execute below command to test the Zookeeper and Kafka broker registration to the Zookeeper server.
+--C:\Softwares\kafka_2.13-2.5.0\bin\windows>zookeeper-shell.bat localhost:2181 ls /brokers/ids  
+
