@@ -36,3 +36,9 @@ to check consumer group created
 Execute below command to test the Zookeeper and Kafka broker registration to the Zookeeper server.
 --C:\Softwares\kafka_2.13-2.5.0\bin\windows>zookeeper-shell.bat localhost:2181 ls /brokers/ids  
 
+For multi node cluster
+Execute below commands for 3 brokers
+--kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 3 --partitions 1 --topic Multibrokerapplication
+
+Execute below command for details of brokers 
+--kafka-topics.bat --describe --zookeeper localhost:2181 --topic Multibrokerapplication
