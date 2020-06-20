@@ -20,6 +20,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import com.example.demo.controller.TransactionController;
 
+
 import javax.annotation.PreDestroy;
 
 @Configuration
@@ -28,9 +29,11 @@ import javax.annotation.PreDestroy;
 public class RedisConfig {
 
 	
+	
 	  @Value("${spring.redis.host}") String hostName;
 	  
 	  @Value("${spring.redis.port}") Integer port;
+	 
 	 
 	  private static final Logger logger = LoggerFactory.getLogger(RedisConfig.class);
 	    
@@ -52,12 +55,13 @@ public class RedisConfig {
 
 	@Bean
 	public RedisTemplate<?, ?> redisTemplate() {
-        final RedisTemplate<String, Object> template = new RedisTemplate<String, Object>();
-        logger.info("helloo",hostName , port);
+		final RedisTemplate<String, String> template = new RedisTemplate<String, String>();
+		
 		  template.setConnectionFactory(jedisConnectionFactory());
 		  template.setValueSerializer(new
 		  GenericToStringSerializer<Object>(Object.class));
 		  template.setEnableTransactionSupport(true);
+      //return template;
         
 		/*
 		 * RedisSerializer<String> stringSerializer = new StringRedisSerializer();
@@ -79,7 +83,7 @@ public class RedisConfig {
         return template;	
 	}
 	
-	/*
-	 * @PreDestroy public void cleanRedis() { factory.getConnection() .flushDb(); }
-	 */
+	
+	  
+	 
 }
