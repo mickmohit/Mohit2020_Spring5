@@ -10,12 +10,14 @@ $(function(){
 	
 });
 
+//var pageConstant= "?page=0&size=5"; //older way of passing pagination params
+var pageConstant= "?page=1";
 
 function fetchList(type)
 {
  $.ajax({
 	 type:"GET",
-	 url:"/mohitproject/"+type+"/list",
+	 url:"/mohitproject/"+type+"/list"+pageConstant,
 	 success: function(data){
 		 $(".inner-jsp").html(data);
 	 }
@@ -44,6 +46,28 @@ function editForm(type, id){
 	});
 }
 
+function refresh(type){
+	$.ajax({
+		type:"GET",
+		 url:"/mohitproject/"+type+"/refresh"+pageConstant,
+		 success: function(data){
+			 $(".inner-jsp").html(data);
+		 }
+	});
+}
+
+//function list(type,page,size) 
+function list(type,page) //size param removed
+{
+	$.ajax({
+		type:"GET",
+		// url:"/mohitproject/"+type+"/list?page="+page+"&size="+size, //older way of pagination
+		 url:"/mohitproject/"+type+"/list?page="+(page),
+		 success: function(data){
+			 $(".inner-jsp").html(data);
+		 }
+	});
+}
 
 function deleteData(type, id){
 	

@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.security.config.web.server.ServerHttpSecurity"/>
-<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity"/>
-<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
-<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.builders.HttpSecurity"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.OAuth2AuthorizedClientManager"/>
-<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.web.reactive.function.client.ServletOAuth2AuthorizedClientExchangeFilterFunction"/>
-<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.registration.ClientRegistrationRepository"/>
-<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.web.DefaultOAuth2AuthorizedClientManager"/>
-<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.web.OAuth2AuthorizedClientRepository"/>
-<fullyQualifiedTypeName name="org.springframework.security.oauth2.client.AuthorizationCodeOAuth2AuthorizedClientProvider"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
@@ -29,7 +17,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
 <fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.example.demo.model.UserResponse"/>
 <fullyQualifiedTypeName name="com.example.demo.service.EmailService"/>
 <fullyQualifiedTypeName name="com.example.demo.service.UserService"/>
@@ -60,4 +47,17 @@
 <fullyQualifiedTypeName name="javax.persistence.criteria.FetchParent"/>
 <fullyQualifiedTypeName name="com.example.demo.model.Company"/>
 <fullyQualifiedTypeName name="com.example.demo.model.Department"/>
+<fullyQualifiedTypeName name="com.sun.istack.NotNull"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.Pattern"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONObject"/>
+<fullyQualifiedTypeName name="org.springframework.validation.ObjectError"/>
+<fullyQualifiedTypeName name="org.springframework.validation.FieldError"/>
+<fullyQualifiedTypeName name="com.example.demo.utils.ConstantUtils"/>
+<fullyQualifiedTypeName name="javax.validation.Valid"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="com.example.demo.utils.ErrorUtils"/>
+<fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONException"/>
 </qualifiedTypeNameHistroy>

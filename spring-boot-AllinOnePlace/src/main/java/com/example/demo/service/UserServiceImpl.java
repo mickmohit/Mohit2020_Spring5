@@ -6,7 +6,14 @@ import java.util.Optional;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +23,7 @@ import com.example.demo.repository.RoleRepository;
 import com.example.demo.repository.UserRepository;
 
 @Service
+@CacheConfig(cacheNames={"userCache"}) //instead putting cache name again and again , put it only once.
 public class UserServiceImpl implements UserService {
 
 	@Autowired
@@ -25,9 +33,20 @@ public class UserServiceImpl implements UserService {
 	private RoleRepository roleRepository;
 	
 	@Override
+	@Cacheable()
+	//@Cacheable("userCache")
 	public List<User> userList() {
 		// TODO Auto-generated method stub
-		return userRepository.findAll();
+		return userRepository.userList();
+	}
+	
+
+	@Override
+	@Cacheable()
+	public Page<User> findAllUserPages(Pageable pageable) {
+		
+	//	return userRepository.findAll(pageable); older way of pagination
+		return userRepository.findAll(PageRequest.of(pageable.getPageNumber() - 1, 5));
 	}
 
 	@Override
@@ -41,6 +60,8 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
+	@CachePut(key = "#user")
+	//@CachePut(value="userCache", key="#user")//to handle if you have added/update any enrty but you do not want to refresh it manually, rather it will added/refreshed automatically
 	public String addUser(User user) {
 		
 		String message="";
@@ -56,10 +77,13 @@ public class UserServiceImpl implements UserService {
 		
 		System.out.println("role-------------"+user);
 		
+		
 		//user.setRole(roleRepository.findById(user.getRole().getRoleId()).orElse(null));
 		user.setRole(roleRepository.findById(user.getRole_Id()).orElse(null)); //for JSON AJax call
 		
 		try {
+			jsonObject.put("status", "success");
+			jsonObject.put("title", message+" Confirmation");
 			jsonObject.put("message", userRepository.save(user).getUserName()+message+" Successfully");
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
@@ -77,6 +101,7 @@ public class UserServiceImpl implements UserService {
 	}*/
 
 	@Override
+	@CacheEvict(allEntries = true)
 	public String deleteUser(Long id) {
 		JSONObject jsonObject= new JSONObject();
 		
@@ -103,5 +128,15 @@ public class UserServiceImpl implements UserService {
 		// TODO Auto-generated method stub
 		return roleRepository.findAll();
 	}
+
+	@Override
+	@CacheEvict(allEntries = true)
+	//@CacheEvict(value="userCache", allEntries = true) //to create manual refresh request from UI
+	public void refershCache() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 
 }

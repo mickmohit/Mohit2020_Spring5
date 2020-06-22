@@ -9,6 +9,13 @@ import javax.persistence.ManyToOne;
 
 import org.hibernate.annotations.ManyToAny;
 
+import com.example.demo.utils.ConstantUtils;
+import com.example.demo.validator.Validate;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
 @Entity
 public class Address {
 
@@ -16,9 +23,29 @@ public class Address {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long addressId;
 	
+	@NotNull
+	//@Size(min=10, max=100)
+	@Validate(min=10, max=100, regexp="", message="Please enter between {min}-{max} characters")
+	private String addressLine;
+	
+	@NotNull
+	@Size(min=3, max=15, message="Please enter between {min}-{max} characters")
+	@Pattern(regexp=ConstantUtils.CHAR_PATTERN, message="Please enter only characters")
 	private String city;
+	
+	@NotNull
+	@Size(min=3, max=15, message="Please enter between {min}-{max} characters")
+	@Pattern(regexp=ConstantUtils.CHAR_PATTERN, message="Please enter only characters")
 	private String state;
+	
+	@NotNull
+	@Size(min=3, max=15, message="Please enter between {min}-{max} characters")
 	private String country;
+	
+	@NotNull
+	@Size(min=6, max=6, message="Please enter atleast {min} digits")
+	@Pattern(regexp=ConstantUtils.CODE_PATTERN, message="Please enter only digits")
+	private String pinCode;
 	
 	//to update userid from address
 	private transient Long userId; //make sure you use same variable name in your rest request
@@ -67,6 +94,19 @@ public class Address {
 		this.userId = userId;
 	}
 	
+		
+	public String getAddressLine() {
+		return addressLine;
+	}
+	public void setAddressLine(String addressLine) {
+		this.addressLine = addressLine;
+	}
+	public String getPinCode() {
+		return pinCode;
+	}
+	public void setPinCode(String pinCode) {
+		this.pinCode = pinCode;
+	}
 	@Override
 	public String toString() {
 		return "Address [addressId=" + addressId + ", city=" + city + ", state=" + state + ", country=" + country

@@ -12,8 +12,13 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 import org.springframework.data.jpa.domain.AbstractPersistable;
+
+import com.example.demo.utils.ConstantUtils;
 
 @Entity
 public class User {//extends AbstractPersistable<Long>{
@@ -22,8 +27,29 @@ public class User {//extends AbstractPersistable<Long>{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long userId;
 	
+	@NotNull
+	@Size(min=5, max=30, message="Please enter between {min}-{max} characters")
+	@Pattern(regexp=ConstantUtils.CHAR_PATTERN, message="Please enter only characters")
+	//@Validate(min=5, max=30, regexp=ConstantUtils.CHAR_PATTERN, message="Please enter between {min}-{max} characters and no digits")
+	private String fullName;
+	
+	@NotNull
 	private String userName;
+	
+	@NotNull
 	private String password;
+	
+	@NotNull
+	@Size(min=10, max=100, message="Please enter between {min}-{max} characters")
+	@Pattern(regexp=ConstantUtils.EMAIL_PATTERN, message="Please enter only valid input")
+	//@Validate(min=10, max=100, regexp=ConstantUtils.EMAIL_PATTERN, message="Please enter between {min}-{max} characters and valid input")
+	private String email;
+	
+	@NotNull
+	@Size(min=10, max=10, message="Please enter atleast {min} digits")
+	@Pattern(regexp=ConstantUtils.MOBILE_PATTERN, message="Please enter only digits")
+	//@Validate(min=10, max=10, regexp=ConstantUtils.MOBILE_PATTERN, message="Please enter atleast {min} digits and no characters")
+	private String mobile;
 	
 	@OneToMany(targetEntity=Address.class, mappedBy="user", fetch=FetchType.LAZY , cascade = CascadeType.ALL)
 	private Set<Address> addresses;
@@ -68,6 +94,28 @@ public class User {//extends AbstractPersistable<Long>{
 	}
 	public void setRole_Id(long role_Id) {
 		this.role_Id = role_Id;
+	}
+	
+	
+	
+	
+	public String getFullName() {
+		return fullName;
+	}
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
 	}
 	@Override
 	public String toString() {

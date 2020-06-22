@@ -2,12 +2,16 @@
 <aop-reference-model>
 <aop-project name="springBoot-social-OAUTH2"/>
 <aop-project name="springBoot-with-kafka"/>
+<aop-project name="spring-boot-AllinOnePlace"/>
 <aop-project name="spring-security-with-jwt-withUserRole"/>
 <aop-project name="spring-rest-security-demo"/>
 <aop-project name="MajorProject-UserService"/>
+<aop-project name="spring-boot-KafkaProducer"/>
 <aop-project name="spring-boot-security-OAUTH2withDefaultTokenStore"/>
+<aop-project name="spring-boot-FullStack_withReact_JPA"/>
 <aop-project name="jpa_embeddable_Embedded_demo"/>
 <aop-project name="spring-security-with-jwt"/>
+<aop-project name="spring-boot-KafkaConsumer"/>
 <aop-project name="springBoot-redis-cache"/>
 <aop-project name="MajorProject-WalletService"/>
 <aop-project name="MongoNotes"/>
@@ -18,10 +22,12 @@
 <aop-project name="springBoot-redis-PubSub"/>
 <aop-project name="spring-boot-security-OAUTH2withJwtTokenStore"/>
 <aop-project name="spring-boot-security-OAUTH2withJwtTokenStoreAndExternalStore"/>
+<aop-project name="springBoot-webSocket_BotChat"/>
 <aop-project name="spring-boot-security-OAUTH2withJwtTokenStoreAndGoogleLogin"/>
-<aop-project name="spring-boot-security-OAUTH2withOktaAsOkta_Client"/>
 <aop-project name="jpa-one-to-one-demo"/>
+<aop-project name="spring-boot-security-OAUTH2withOktaAsOkta_Client"/>
 <aop-project name="demo"/>
+<aop-project name="spring-boot-FullStack_withReact"/>
 <aop-project name="spring-boot-security-OAUTH2withWebClient"/>
 <aop-project name="jpa_composite_primary_key_demo"/>
 <aop-project name="jpa_elementCollection_CollectionTable_demo"/>

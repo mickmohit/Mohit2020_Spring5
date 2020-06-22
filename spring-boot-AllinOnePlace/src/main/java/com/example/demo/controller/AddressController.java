@@ -3,10 +3,16 @@ package com.example.demo.controller;
 import java.util.List;
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -22,6 +28,7 @@ import com.example.demo.model.Address;
 import com.example.demo.model.User;
 import com.example.demo.service.AddressService;
 import com.example.demo.service.UserService;
+import com.example.demo.utils.ErrorUtils;
 
 @Controller
 @RequestMapping("address")
@@ -51,10 +58,54 @@ public class AddressController {
 		return "address/form";
 	}
 	
-	@GetMapping("/list")
-	public String addressList(Model model)
+	@GetMapping("/refresh")
+	public String refreshCache(Model model, Pageable pageable)
 	{
-		model.addAttribute("addresses",addressService.addressList());
+		addressService.refershCache();
+		//model.addAttribute("addresses",addressService.addressList());
+		Page<Address> pages=addressService.findAllAddress(pageable);
+		
+		/*Below code is for modern way of pagination*/
+		int current= pages.getNumber()+1;
+		int begin= Math.max(1, current-5);
+		int end= Math.min(begin+5, pages.getTotalPages());
+		
+		model.addAttribute("current",current);
+		model.addAttribute("begin",begin);
+		model.addAttribute("end",end);
+		
+		model.addAttribute("number", pages.getNumber());
+		model.addAttribute("totalPages", pages.getTotalPages());
+		model.addAttribute("totalElements", pages.getTotalElements());
+		model.addAttribute("size", pages.getSize());
+		
+		model.addAttribute("addresses", pages.getContent());
+		return "address/list";
+	}
+	
+	@GetMapping("/list")
+	public String addressList(Model model, Pageable pageable)
+	{
+		//model.addAttribute("addresses",addressService.addressList());
+		Page<Address> pages=addressService.findAllAddress(pageable);
+		
+		/*Below code is for modern way of pagination--start*/
+		int current= pages.getNumber()+1;
+		int begin= Math.max(1, current-5);
+		int end= Math.min(begin+5, pages.getTotalPages());
+		
+		model.addAttribute("current",current);
+		model.addAttribute("begin",begin);
+		model.addAttribute("end",end);
+		
+		/*code end */
+		
+		model.addAttribute("number", pages.getNumber());
+		model.addAttribute("totalPages", pages.getTotalPages());
+		model.addAttribute("totalElements", pages.getTotalElements());
+		model.addAttribute("size", pages.getSize());
+		
+		model.addAttribute("addresses", pages.getContent());
 		return "address/list";
 	}
 	
@@ -66,9 +117,13 @@ public class AddressController {
 	}
 	
 	@PostMapping(value="/add", produces = MediaType.APPLICATION_JSON_VALUE, consumes=MediaType.APPLICATION_JSON_VALUE)
-	public @ResponseBody String addAddress(@RequestBody Address address)
+	public @ResponseBody String addAddress( @RequestBody @Valid Address address, BindingResult result)
 	{
-		return addressService.addAddress(address);
+		if(result.hasErrors()) {
+			return ErrorUtils.customErrors(result.getAllErrors());
+		} else {
+			return addressService.addAddress(address);
+		}
 	}
 	
 	/*@PostMapping("/add") //below is for normal form based add calls

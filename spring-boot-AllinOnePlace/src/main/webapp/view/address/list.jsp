@@ -21,6 +21,8 @@
 					<th>Country</th>         
 					<th>State</th>
 					<th>City</th>
+					<th>Line</th>
+					<th>Pin Code</th>
 					<th>User</th>
 					<th>Edit</th>
 					<th>Delete</th>
@@ -35,6 +37,8 @@
 <td>${address.country}</td>
 <td>${address.state}</td>
 <td>${address.city}</td>
+<td>${address.addressLine}</td>
+<td>${address.pinCode}</td>
 <td>${address.user.userName}</td>
 <td><a href="javascript:void(0);" onclick="editForm('address', '${address.addressId}')"><span class="glyphicon glyphicon-edit"></span></a></td>
 <td><a href="javascript:void(0);" onclick="deleteData('address', '${address.addressId}')"><span class="glyphicon glyphicon-trash"></span></a></td>
@@ -52,6 +56,61 @@
 
 </table>
 </div>
+
+<c:if test="${addresses.size() > 0}">
+		<div class="panel-footer">
+			Showing ${number+1} to ${size} of ${totalElements}
+			<ul class="pagination pull-right" style="margin:-7px;">
+			
+			<!---------------Older way of Pagination ------------------->
+				<%-- <c:forEach begin="0" end="${totalPages-1}" var="page">
+					<li>
+						<a href="javascript:void(0);" onclick="list('address', ${page}, ${size})">${page+1}</a> //Older method way of Pagination, comment this
+						<a href="javascript:void(0);" onclick="list('address', ${page})">${page+1}</a> 
+					</li>
+				</c:forEach> --%>
+				
+				<!-- section-1 -->	
+		<c:choose>
+		<c:when test="${current == 1}">
+			<li class="disabled"><a href="javascript:void(0);">First</a></li>
+			<li class="disabled"><a href="javascript:void(0);">Prev</a></li>
+		</c:when>
+		<c:otherwise>
+			<li ><a href="javascript:void(0);" onclick="list('address','1')">First</a></li>
+			<li ><a href="javascript:void(0);" onclick="list('address','${current - 1}')">Prev</a></li>
+		</c:otherwise>
+		</c:choose>		
+	
+		<!-- section-2 -->
+		<c:forEach begin="${begin}" end="${end}" var="i">
+			<c:choose>
+				<c:when test="${i==current}">
+					<li class="active"><a href="javascript:void(0);" onclick="list('address','${i}')">${i}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li ><a href="javascript:void(0);" onclick="list('address','${i}')">${i}</a></li>
+				</c:otherwise>
+			</c:choose>
+		</c:forEach>	
+		
+		<!-- section-3 -->
+		<c:choose>
+		<c:when test="${current == totalPages}">
+		<li class="disabled"><a href="javascript:void(0);">Next</a></li>
+		<li class="disabled"><a href="javascript:void(0);">Last</a></li>
+		</c:when>
+		<c:otherwise>
+			<li ><a href="javascript:void(0);" onclick="list('address','${current + 1}')">Next</a></li>
+			<li ><a href="javascript:void(0);" onclick="list('address','${totalPages}')">Last</a></li>
+		</c:otherwise>
+		</c:choose>		
+				
+				
+			</ul>
+		</div>
+	</c:if>
+	
 <a href="${path}/">Return to Welcome Page</a>
 
 </body>

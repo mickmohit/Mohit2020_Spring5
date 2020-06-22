@@ -14,6 +14,13 @@
 	<form:form method="post" class="form-horizontal" action="${path}/address/add" modelAttribute="addressForm" id="submitAddressForm">
 		<form:hidden path="addressId"/>
 		<div class="panel-body">
+		
+		<div class="form-group">
+				<label class="col-md-2 control-label">Address Line : </label>
+				<div class="col-md-10">
+					<form:textarea class="form-control" path="addressLine" placeholder="Enter Street, Landmark and other details" required="true"/>
+				</div>
+			</div>
 			
 			<div class="form-group">
 				<label class="col-md-2 control-label">Country : </label>
@@ -32,6 +39,10 @@
 					<form:input class="form-control" path="city" placeholder="Enter City" required="true"/>
 				</div>
 				
+				<label class="col-md-2 control-label">Pin Code : </label>
+				<div class="col-md-4">
+					<form:input class="form-control" path="pinCode" placeholder="Enter Pin Code" required="true"/>
+				</div>
 				
 			</div>
 			<div class="form-group">
@@ -39,7 +50,7 @@
 				<div class="col-md-4">
 					<form:select class="form-control" path="userId">
 						<c:forEach items="${users}" var="user">
-							<form:option value="${user.userId}">${user.userName}</form:option>
+							<form:option value="${user.userId}">${user.fullName}</form:option>
 						</c:forEach>
 					</form:select>
 				</div>

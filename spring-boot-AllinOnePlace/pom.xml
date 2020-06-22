@@ -86,6 +86,22 @@
 		    <version>4.7.0</version>
 		</dependency>
 		
+		<!--  <dependency>
+		    <groupId>javax.validation</groupId>
+		    <artifactId>validation-api</artifactId>
+		    </dependency> -->
+		<!--    Starting from version 2.3.0.RELEASE Spring Boot Web and WebFlux starters no longer depend on the validation starter, so you have to add spring-boot-starter-validation
+		 --> <dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>javax.cache</groupId>
+		    <artifactId>cache-api</artifactId>
+		    <version>1.1.1</version>
+		</dependency>
+				
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

@@ -18,6 +18,13 @@
 		<div class="panel-body">
 			
 			<div class="form-group">
+				<label class="col-md-2 control-label">Full Name : </label>
+				<div class="col-md-4">
+					<form:input class="form-control" path="fullName" placeholder="Enter Full Name" required="true"/>
+				</div>
+			</div>	
+				
+			<div class="form-group">
 				<label class="col-md-2 control-label">User Name : </label>
 				<div class="col-md-4">
 					<form:input class="form-control" path="userName" placeholder="Enter User Name" required="true"/>
@@ -28,6 +35,19 @@
 					<form:password class="form-control" path="password" placeholder="Enter Password" required="true"/>
 				</div>
 			</div>
+			
+			<div class="form-group">
+				<label class="col-md-2 control-label">Email : </label>
+				<div class="col-md-4">
+					<form:input class="form-control" path="email" placeholder="Enter Email Address" required="true"/>
+				</div>
+				
+				<label class="col-md-2 control-label">Mobile : </label>
+				<div class="col-md-4">
+					<form:input class="form-control" path="mobile" placeholder="Enter Mobile Number" required="true"/>
+				</div>
+			</div>
+			
 			<div class="form-group">
 				<label class="col-md-2 control-label">Role :</label>
 				<div class="col-md-4">

@@ -35,11 +35,19 @@ function saveRequestedData(frm, data, type) {
 		dataType:'json',
 		data:JSON.stringify(data),
 		success:function(data) {
+			if(data.status == "success") {
 			alert(data.message);
 			toastr.success(data.message, data.title, {
 				closeButton:true
 			});
 			fetchList(type);
+			}
+			else {
+				toastr.error(data.message, data.title, {
+					allowHtml:true,
+					closeButton:true
+				});
+			}
 		}
 	});
 }	
