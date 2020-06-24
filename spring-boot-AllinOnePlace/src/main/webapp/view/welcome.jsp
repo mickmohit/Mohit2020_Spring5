@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <c:set var="path" value="${pageContext.request.contextPath}"/>
 <html>
 <head>
@@ -10,6 +11,7 @@
 		<link rel="stylesheet" href="${path}/webjars/font-awesome/4.7.0/css/font-awesome.min.css">
 		
 		<script type="text/javascript" src="${path}/webjars/jquery/3.2.0/jquery.min.js"></script>
+		<script type="text/javascript" src="${path}/webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="${path}/js/jquery.boot.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 		<title>Welcome</title>
@@ -48,7 +50,7 @@
 		    			<ul class="nav navbar-nav navbar-right">
 		
 	<li>
-		    					<a href="javascript:void(0);" onclick="document.forms['logoutForm'].submit()">Welcome ${pageContext.request.userPrincipal.name} | <span class="glyphicon glyphicon-log-out"></span> Logout</a>
+		    					<a href="javascript:void(0);" onclick="document.forms['logoutForm'].submit()">Welcome ${pageContext.request.userPrincipal.name} | <span class="glyphicon glyphicon-log-out"></span><spring:message code="label.logout"/> <!-- Logout --></a>
 		    				</li>
 		    			</ul>
 		    		</div>
@@ -68,6 +70,7 @@
 		    			<c:forEach begin="0" end="0" varStatus="loop">
 		    				<div class="col-md-12">
 		    					<h2>${message}</h2>
+		    					<h2><spring:message code="label.header"/></h2>
 		    			   </div>
 		    			</c:forEach>
 		    		</div>

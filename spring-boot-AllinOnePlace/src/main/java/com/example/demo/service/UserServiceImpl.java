@@ -17,6 +17,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.config.ServerMessageConfig;
 import com.example.demo.model.Role;
 import com.example.demo.model.User;
 import com.example.demo.repository.RoleRepository;
@@ -31,6 +32,9 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
 	private RoleRepository roleRepository;
+	
+	@Autowired
+	private ServerMessageConfig messageConfig;
 	
 	@Override
 	@Cacheable()
@@ -73,18 +77,29 @@ public class UserServiceImpl implements UserService {
 		}else {
 		message=" updated";
 		}
+		
+		if(user.getProfilePhoto()==null) 
+		{
 		user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
-		
-		System.out.println("role-------------"+user);
-		
 		
 		//user.setRole(roleRepository.findById(user.getRole().getRoleId()).orElse(null));
 		user.setRole(roleRepository.findById(user.getRole_Id()).orElse(null)); //for JSON AJax call
+		}
+		
 		
 		try {
 			jsonObject.put("status", "success");
-			jsonObject.put("title", message+" Confirmation");
-			jsonObject.put("message", userRepository.save(user).getUserName()+message+" Successfully");
+			
+			String[] msg= {message};
+			
+			//jsonObject.put("title", message+" Confirmation");
+			jsonObject.put("title", messageConfig.getMessage("label.confirmation", msg));
+			
+			String[] msg2= {userRepository.save(user).getUserName(),message};
+			
+			//jsonObject.put("message", userRepository.save(user).getUserName()+message+" Successfully");
+			jsonObject.put("message", messageConfig.getMessage("user.save.success", msg2));
+			
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -107,7 +122,7 @@ public class UserServiceImpl implements UserService {
 		
 		try {
 		 userRepository.deleteById(id);
-		 jsonObject.put("message", "User Deleted Successfully");
+		 jsonObject.put("message", messageConfig.getMessage("user.delete"));
 		}catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

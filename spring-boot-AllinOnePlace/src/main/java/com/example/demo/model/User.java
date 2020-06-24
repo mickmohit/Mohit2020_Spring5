@@ -54,6 +54,8 @@ public class User {//extends AbstractPersistable<Long>{
 	@OneToMany(targetEntity=Address.class, mappedBy="user", fetch=FetchType.LAZY , cascade = CascadeType.ALL)
 	private Set<Address> addresses;
 	
+	private String profilePhoto;
+	
 	@ManyToOne
 	@JoinColumn(name="roleid")
 	private Role role;
@@ -116,6 +118,15 @@ public class User {//extends AbstractPersistable<Long>{
 	}
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
+	}
+	
+	
+	
+	public String getProfilePhoto() {
+		return profilePhoto;
+	}
+	public void setProfilePhoto(String profilePhoto) {
+		this.profilePhoto = profilePhoto;
 	}
 	@Override
 	public String toString() {

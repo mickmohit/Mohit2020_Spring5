@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>>
 <c:set var="path" value="${pageContext.request.contextPath}"/>
 <div class="panel panel-default">
 	<div class="panel-heading">
@@ -35,7 +36,18 @@
 		
 <c:forEach items="${users}" var="user"> 
 <tr>
-<td>"${user.fullName}"</td>
+
+<td>
+<c:choose>
+	<c:when test="${user.profilePhoto eq null}">
+	<span class="glyphicon glyphicon-user"></span>
+	</c:when>
+<c:otherwise>
+	<img alt="user-image" src="${user.profilePhoto}" class="img-circle" width="16" height="16">
+</c:otherwise>
+</c:choose>
+
+"${user.fullName}"</td>
 <td>"${user.userName}"</td>
 <td>"${user.password}"</td>
 <td>${user.email}</td>
@@ -45,6 +57,7 @@
 <td><a href="${path}/user/delete/${user.userId}">Delete</a></td> --%>
 <td><a href="javascript:void(0);" onclick="editForm('user', '${user.userId}')"><span class="glyphicon glyphicon-edit"></span></a></td>
 <td><a href="javascript:void(0);" onclick="deleteData('user', '${user.userId}')"><span class="glyphicon glyphicon-trash"></span></a></td>
+
 </tr>
  </c:forEach>
  

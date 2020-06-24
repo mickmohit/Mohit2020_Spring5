@@ -11,6 +11,40 @@ $(function(){
 			delete data[undefined];
 		});
 		saveRequestedData(frm, data, "user");
+		
+		/*$("#uploadImage").on("submit",function(e){
+			e.preventDefault();
+			var formData = new FormData(this);
+			$.ajax({
+				type:"POST",
+				url:"/mohitproject/user/upload",
+				data=formdata,
+				cache:false,
+				dataType:"json",
+				contentType:false,
+				processData:false,
+				success:function(data) {
+					var title="Upload Confirmation";
+					if(data.status == "success") {
+					toastr.success(data.message, title, {
+					closeButton:true
+					});
+					fetchList("user");
+					$("#uploadModal").modal("hide");
+					$("body").removeClass("modal-open");
+					$(".modal-backdrop").remove();
+					}
+					else {
+						toastr.error(data.message, title, {
+							allowHtml:true,
+							closeButton:true
+						});
+					}
+				}
+			}
+			)
+		});*/
+		
 	});
 	
 	$("#submitAddressForm").submit(function(e){

@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import java.util.List;
 import java.util.Optional;
 
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,10 +23,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
+import com.amazonaws.services.s3.AmazonS3;
 import com.example.demo.model.User;
+import com.example.demo.service.AmazonService;
 import com.example.demo.service.UserService;
 import com.example.demo.utils.ErrorUtils;
 
@@ -36,8 +42,11 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
+	@Autowired
+	private AmazonService amazonService;
+	
 	@RequestMapping("/login")
-	public String login(Model model, String error, String logout)
+	/*public String login(Model model, String error, String logout)  /// Older way of retreiving user session details from user login details and handling response in controller class
 	{
 		if(error!=null)
 		{
@@ -46,6 +55,24 @@ public class UserController {
 		if(logout!=null)
 		{
 			model.addAttribute("message","User has been Logged out");
+		}
+		
+		return "login";
+	}*/
+	public String login(Model model, HttpSession httpsession) // newer way of handling user session details from user login details and handling response in controller class and also setting error in Spring security class
+	{
+		Object error = httpsession.getAttribute("error");
+		Object logout= httpsession.getAttribute("message");
+		
+		if(error!=null)
+		{
+			model.addAttribute("error", error);
+			httpsession.removeAttribute("error");
+		}
+		if(logout!=null)
+		{
+			model.addAttribute("message",logout);
+			httpsession.removeAttribute("message");
 		}
 		
 		return "login";
@@ -141,6 +168,14 @@ public class UserController {
 			return userService.addUser(user);
 		}
 	}
+	
+	@PostMapping(value="/upload",  consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE, 
+	        produces = {MediaType.APPLICATION_ATOM_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
+	public @ResponseBody String fileUpload(@RequestPart(value="file") MultipartFile multipartFile, @RequestParam(value="editUserId") Long editUserId) {
+		
+		return amazonService.uploadFile(multipartFile, userService.findOne(editUserId).orElse(null));
+	}
+	
 	
 	// below code is for normal form based add calls
 	/*@PostMapping("/add")

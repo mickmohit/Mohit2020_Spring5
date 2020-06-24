@@ -58,6 +58,18 @@
 						</c:forEach>
 					</form:select>
 				</div>
+				
+				
+				<%-- <c:if test="${userForm.userId ne null}"> --%>
+				
+				<!-- <label class="col-md-2 control-label">Profile Picture :</label>	
+				<div class="col-md-4">
+				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#uploadModal" >
+					<span class="glyphicon glyphicon-upload">Upload</span>
+				</button>
+				</div> -->
+				<%-- </c:if> --%>
+								
 			</div>
 		</div>
 		<div class="panel-footer">
@@ -72,6 +84,34 @@
 	</form:form>
 </div>	
 	
+<%-- 
+<c:if test="${userForm.userId ne null}"> --%>
+<%-- <div id="uploadModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+	<div class="modal-content">
+		<form id="uploadImage" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Upload User Profile for ${userForm.fullName} </h4>
+			</div>												  
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="hidden" name="editUserId" value="${userForm.userId}">
+					<label class="col-md-3 control-label">Upload File :</label>	
+					<div class="col-md-6">
+					 	<input type="file" name="file" class="form-control">
+					</div>
+			</div>
+			</div>
+			<div class="modal-footer">
+				<button type="submit" class="btn btn-default">Upload</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</form>
+	</div>
+</div>
+</div> --%>
+<%-- </c:if> --%>
 
 <%-- <body>
 
