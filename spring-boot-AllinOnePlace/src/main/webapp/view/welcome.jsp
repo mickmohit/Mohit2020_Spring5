@@ -46,10 +46,11 @@
 		    				<li class="active"><a href="${path}"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 		    				<li><a href="javascript:void(0);"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
 		    				<li><a href="javascript:void(0);"><span class="glyphicon glyphicon-phone-alt"></span> Contact</a></li>
+		    				<li><a href="javascript:void(0);" id="bookList"><span class="fa fa-book"></span> Book List</a></li>
 		    			</ul>
 		    			<ul class="nav navbar-nav navbar-right">
 		
-	<li>
+							<li>
 		    					<a href="javascript:void(0);" onclick="document.forms['logoutForm'].submit()">Welcome ${pageContext.request.userPrincipal.name} | <span class="glyphicon glyphicon-log-out"></span><spring:message code="label.logout"/> <!-- Logout --></a>
 		    				</li>
 		    			</ul>
@@ -60,8 +61,9 @@
 		    	<div class="menu navbar navbar-default">
 		    		<div class="menu-container">
 		    			<ul class="nav navbar-nav">
-		    				<li><a href="javascript:void(0);" id="userList"><span class="glyphicon glyphicon-user"></span> User List</a></li>
+		    				<li><a href="javascript:void(0);" id="userList"><i class="glyphicon glyphicon-user"></i> User List</a></li>
 		    				<li><a href="javascript:void(0);" id="addressList"><i class="fa fa-address-card-o"></i> Address List</a></li>
+		   					
 		    			</ul>
 		    		</div>
 		    	</div>

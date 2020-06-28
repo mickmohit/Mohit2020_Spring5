@@ -68,17 +68,34 @@ public class UserServiceImpl implements UserService {
 	//@CachePut(value="userCache", key="#user")//to handle if you have added/update any enrty but you do not want to refresh it manually, rather it will added/refreshed automatically
 	public String addUser(User user) {
 		
+		System.out.println("Inside user ffrom service---------------------------------"+user.getFullName()+" "+"user.getInputSource() is--------------"+user.getInputSource());
 		String message="";
 		JSONObject jsonObject= new JSONObject();
 		Long longValue=user.getUserId();
-		if(longValue==null)
+		if(longValue==0)
 		{
 			message=" added";
 		}else {
 		message=" updated";
 		}
 		
-		if(user.getProfilePhoto()==null) 
+		/**** Specially for user registration condition *********/
+		if(user.getUserId() == 0) {
+			//user.setUserId("User" + System.currentTimeMillis());
+			user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
+			message = messageConfig.getMessage("label.added");
+			user.setRole(roleRepository.findByName("user"));
+		}
+		
+		/*
+		 * if(user.getInputSource().equals("register") && user.getUserId()==0) {
+		 * user.setRole(roleRepository.findByName("user")); } else{
+		 * user.setRole(roleRepository.findById(user.getRole_Id()).get()); }
+		 */
+		 
+		/*****************************************/
+		
+		if(user.getProfilePhoto()==null && user.getUserId()!=0) 
 		{
 		user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
 		
@@ -89,6 +106,7 @@ public class UserServiceImpl implements UserService {
 		
 		try {
 			jsonObject.put("status", "success");
+			jsonObject.put("source", user.getInputSource());
 			
 			String[] msg= {message};
 			

@@ -96,7 +96,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	public void configure(WebSecurity web) throws Exception { //for ignoring static stuff from application 
 		// TODO Auto-generated method stub
-		web.ignoring().antMatchers("/webjars/**","/js/**");
+		web.ignoring().antMatchers("/webjars/**", "/js/**", "/css/**");
 	}
 
 
@@ -105,6 +105,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 
 		http.csrf().disable().authorizeRequests()//.antMatchers("/webjars/**").permitAll()
+		.antMatchers("/user/register", "/user/add").permitAll()
 		.anyRequest().authenticated().and()
 		.formLogin().loginPage("/user/login")
 		.successHandler(loginSuccessHandler()) //customize Login Handlers

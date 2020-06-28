@@ -63,6 +63,8 @@ public class User {//extends AbstractPersistable<Long>{
 	private transient long role_Id; // for mapping UI json ajax request to form add 
 	//without above variable json request come as User with no roleid [userId=0, userName=admin, password=**]	
 	
+	private transient String inputSource;
+	
 	public long getUserId() {
 		return userId;
 	}
@@ -122,6 +124,12 @@ public class User {//extends AbstractPersistable<Long>{
 	
 	
 	
+	public String getInputSource() {
+		return inputSource;
+	}
+	public void setInputSource(String inputSource) {
+		this.inputSource = inputSource;
+	}
 	public String getProfilePhoto() {
 		return profilePhoto;
 	}

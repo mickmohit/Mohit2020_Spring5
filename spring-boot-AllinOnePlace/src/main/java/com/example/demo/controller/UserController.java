@@ -159,9 +159,22 @@ public class UserController {
 	}
 	
 	// below code is to handle json format value so remove model attribute and response type
-	@PostMapping(value="/add", produces = MediaType.APPLICATION_JSON_VALUE, consumes=MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(value="/add", produces = MediaType.APPLICATION_JSON_VALUE, consumes= MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody String addUser(@Valid @RequestBody User user, BindingResult result)
 	{
+		System.out.println("user from register---------------------------------"+user.getFullName());
+		if(result.hasErrors()) {
+			return ErrorUtils.customErrors(result.getAllErrors());
+		} else {
+			return userService.addUser(user);
+		}
+	}
+	
+	///for user registration from login page as spring dont understand post -application-x-www-form-urlencoded-not-workin
+	@PostMapping(value="/add", produces = MediaType.APPLICATION_JSON_VALUE, consumes= MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+	public @ResponseBody String addUserRegister(@Valid  User user, BindingResult result)
+	{
+		System.out.println("user from adduserregister---------------------------------"+user.getFullName());
 		if(result.hasErrors()) {
 			return ErrorUtils.customErrors(result.getAllErrors());
 		} else {
@@ -197,6 +210,12 @@ public class UserController {
 	public @ResponseBody String deleteUser(@PathVariable("id") Long id)
 	{
 		return userService.deleteUser(id);
+	}
+	
+	@GetMapping("/register")
+	public String register(Model model, HttpSession httpSession) {
+		model.addAttribute("userForm", new User());
+		return "register";
 	}
 	
 	/*@GetMapping("/delete/{id}")

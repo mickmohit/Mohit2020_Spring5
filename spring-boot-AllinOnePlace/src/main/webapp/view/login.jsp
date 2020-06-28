@@ -22,11 +22,18 @@
 	<body>
 			<div class="container">
 				<div class="row">
+				
 					<div class="col-md-4 col-md-offset-4">
 						<div class="panel panel-default">
 							<div class="panel-heading">
+							
 							<!-- 	<strong>Login To Your Account</strong> -->
 								<strong><spring:message code="label.login.header"/></strong>
+								
+								<a href="${path}/user/register" class="btn btn-outline-secondary btn-sm pull-right">
+									<strong><i class="fa fa-user-plus"></i> <spring:message code="label.register.header"/></strong>
+								</a>
+					
 							</div>
 							<div class="panel-body">
 							<form method="post" action="${path}/user/login" class="form-signin form-horizontal">

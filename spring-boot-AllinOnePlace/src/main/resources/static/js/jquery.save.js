@@ -59,9 +59,23 @@ $(function(){
 		saveRequestedData(frm, data, "address");
 	});
 	
+	$("#submitBookForm").submit(function(e){
+		e.preventDefault();
+		var frm =$("#submitBookForm");
+		var data={};
+		$.each(this, function(key,value){
+			var input=$(value); //jquery obj
+			data[input.attr("name")]=input.val();
+			delete data[undefined];
+		});
+		alert(JSON.stringify(data));
+		saveRequestedData(frm, data, "book");
+	});
+	
 });
 
 function saveRequestedData(frm, data, type) {
+	alert("calling");
 	$.ajax({
 		contentType:"application/json; charset=utf-8",
 		type:frm.attr("method"),
@@ -71,10 +85,18 @@ function saveRequestedData(frm, data, type) {
 		success:function(data) {
 			if(data.status == "success") {
 			alert(data.message);
+			alert(data.source);
 			toastr.success(data.message, data.title, {
 				closeButton:true
 			});
+			if(data.source == "register") {
+				alert(data.source);
+				setTimeout(function () {
+					window.location.href = "/mohitproject";
+				}, 2000);
+			} else {
 			fetchList(type);
+				   }
 			}
 			else {
 				toastr.error(data.message, data.title, {

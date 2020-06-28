@@ -8,6 +8,10 @@ $(function(){
 		fetchList("address");
 	});
 	
+	$("#bookList").click(function(){
+		fetchList("book");
+	});
+	
 });
 
 //var pageConstant= "?page=0&size=5"; //older way of passing pagination params
@@ -41,6 +45,7 @@ function editForm(type, id){
 		type:"GET",
 		 url:"/mohitproject/"+type+"/edit/"+id,
 		 success: function(data){
+			 alert(data);
 			 $(".inner-jsp").html(data);
 		 }
 	});
