@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Book;
+import com.example.demo.exception.BookNotFoundException;
 import com.example.demo.service.BookService;
 
 @RestController
@@ -32,8 +33,13 @@ public class BookController {
 	}
 	
 	@GetMapping("{id}")
-	public ResponseEntity<Optional<Book>> findById(@PathVariable Long id) {
-		return new ResponseEntity<>(bookService.findById(id),HttpStatus.OK);
+	public ResponseEntity<Book> findById(@PathVariable Long id) {
+		Optional<Book> book=bookService.findById(id);
+		 if(!book.isPresent())
+		 {
+			 throw new BookNotFoundException("Book Not Found");
+		 }
+		return new ResponseEntity<>(book.get(),HttpStatus.OK);
 	}
 	
 	@PostMapping(consumes=MediaType.APPLICATION_JSON_VALUE)
@@ -61,6 +67,20 @@ public class BookController {
 	
 	@DeleteMapping("{id}")
 	public ResponseEntity<String> deleteById(@PathVariable Long id) {
+		Optional<Book> book=bookService.findById(id);
+		 if(!book.isPresent())
+		 {
+			 throw new BookNotFoundException("Book Not Found");
+		 }
+		
 		return new ResponseEntity<>(bookService.deleteById(id),HttpStatus.OK);
+	}
+	
+	@GetMapping("/invalid")
+	public ResponseEntity<String> invalid()
+	{
+		return new ResponseEntity<>(
+				"{'message':'Request is not appropiate, Please Check the provided details.'}",HttpStatus.OK);
+
 	}
 }
