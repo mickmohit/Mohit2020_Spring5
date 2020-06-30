@@ -72,6 +72,19 @@ $(function(){
 		saveRequestedData(frm, data, "book");
 	});
 	
+	$("#submituserPasswordForm").submit(function(e){
+		e.preventDefault();
+		var frm =$("#submituserPasswordForm");
+		var data={};
+		$.each(this, function(key,value){
+			var input=$(value); //jquery obj
+			data[input.attr("name")]=input.val();
+			delete data[undefined];
+		});
+		alert(JSON.stringify(data));
+		saveRequestedData(frm, data, null);
+	});
+	
 });
 
 function saveRequestedData(frm, data, type) {
@@ -95,7 +108,10 @@ function saveRequestedData(frm, data, type) {
 					window.location.href = "/mohitproject";
 				}, 2000);
 			} else {
-			fetchList(type);
+				
+				if(type==null){}
+				else{
+			fetchList(type);}
 				   }
 			}
 			else {

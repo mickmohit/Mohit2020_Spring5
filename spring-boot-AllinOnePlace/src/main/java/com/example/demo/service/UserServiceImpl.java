@@ -171,5 +171,15 @@ public class UserServiceImpl implements UserService {
 	}
 
 
+	@Override
+	public void changeUserPassword(Long id, String password) {
+		User user=userRepository.findById(id).get();
+		if(user!=null) {
+		user.setPassword(new BCryptPasswordEncoder().encode(password));
+		userRepository.save(user);
+		}
+	}
+
+
 
 }

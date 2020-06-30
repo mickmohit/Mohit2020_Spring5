@@ -12,6 +12,10 @@ $(function(){
 		fetchList("book");
 	});
 	
+	$("#changePassword").click(function(){
+		modifyPassword("user/changePassword/"+$("#loginUserId").val());
+	});
+	
 });
 
 //var pageConstant= "?page=0&size=5"; //older way of passing pagination params
@@ -50,6 +54,17 @@ function editForm(type, id){
 		 }
 	});
 }
+
+function modifyPassword(suffix) {
+	$.ajax({
+		type : "GET",
+		url : "/mohitproject/"+suffix,
+		success : function(data) {
+			$(".inner-jsp").html(data);
+		}
+	});
+}
+
 
 function refresh(type){
 	$.ajax({

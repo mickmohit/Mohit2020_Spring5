@@ -30,6 +30,8 @@
 
 <body>
 
+<input type="hidden" id="loginUserId" value='${user.userId}'/>
+
 <c:if test="${pageContext.request.userPrincipal.name !=null}">
 
 <form method="post" id="logoutForm" action="${path}/logout">
@@ -49,7 +51,11 @@
 		    				<li><a href="javascript:void(0);" id="bookList"><span class="fa fa-book"></span> Book List</a></li>
 		    			</ul>
 		    			<ul class="nav navbar-nav navbar-right">
-		
+							
+							<li>
+							 <a href="javascript:void(0);" id="changePassword"> <label>Change Password</label></a>
+			               <!-- <i class="fa fa-lock"></i> -->
+							</li>
 							<li>
 		    					<a href="javascript:void(0);" onclick="document.forms['logoutForm'].submit()">Welcome ${pageContext.request.userPrincipal.name} | <span class="glyphicon glyphicon-log-out"></span><spring:message code="label.logout"/> <!-- Logout --></a>
 		    				</li>
@@ -73,7 +79,7 @@
 		    				<div class="col-md-12">
 		    					<h2>${message}</h2>
 		    					<h2><spring:message code="label.header"/></h2>
-		    			   </div>
+		    			    </div>
 		    			</c:forEach>
 		    		</div>
 		    	</div>

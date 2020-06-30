@@ -25,5 +25,7 @@ public interface UserService {
 	/* @Query( value="SELECT * from role ",nativeQuery = true) */
 	List<Role> roleList();
 
-	void refershCache(); 
+	void refershCache();
+	
+	void changeUserPassword(Long id, String password);
 }

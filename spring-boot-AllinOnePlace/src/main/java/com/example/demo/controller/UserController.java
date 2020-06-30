@@ -30,10 +30,12 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.amazonaws.services.s3.AmazonS3;
+import com.example.demo.DTO.PasswordDto;
 import com.example.demo.model.User;
 import com.example.demo.service.AmazonService;
 import com.example.demo.service.UserService;
 import com.example.demo.utils.ErrorUtils;
+
 
 @Controller
 @RequestMapping("/user")
@@ -216,6 +218,22 @@ public class UserController {
 	public String register(Model model, HttpSession httpSession) {
 		model.addAttribute("userForm", new User());
 		return "register";
+	}
+	
+	@GetMapping("/changePassword/{id}")
+	public String changePassword(@PathVariable Long id, Model model) {
+		model.addAttribute("passwordForm", new PasswordDto());
+		model.addAttribute("userId", id);
+		return "/user/changePassword";
+	}
+	
+	//@PostMapping("/savePassword")
+	@PostMapping(value="/savePassword", produces = MediaType.APPLICATION_JSON_VALUE, consumes= MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+	public  String savePassword(@Valid PasswordDto passwordDto) {
+			
+	      userService.changeUserPassword(passwordDto.getUserId(),passwordDto.getNewPassword());
+		return "welcome";
+	       
 	}
 	
 	/*@GetMapping("/delete/{id}")
