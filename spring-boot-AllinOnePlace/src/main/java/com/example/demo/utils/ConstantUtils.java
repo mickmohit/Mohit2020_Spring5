@@ -14,4 +14,6 @@ public class ConstantUtils {
 	public static final String ACCESS_KEY="AKIAJGDFBUUJF3LAQUWQ";
 	public static final String SECRET_KEY="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";
 	public static final String BUCKET_NAME="almighty-user-images";
+	
+	public static final Integer PAGINATION_SIZE = 8;
 }

@@ -3,6 +3,8 @@ package com.example.demo.controller;
 import java.security.Principal;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,7 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.config.ServerMessageConfig;
 import com.example.demo.model.User;
+import com.example.demo.model.Video;
 import com.example.demo.repository.UserRepository;
+import com.example.demo.service.VideoService;
+import com.example.demo.utils.MethodUtils;
 
 @Controller
 public class WelcomeController {
@@ -23,6 +28,9 @@ public class WelcomeController {
 	
 	@Autowired
 	private UserRepository userRepository;
+	
+	@Autowired
+	private VideoService videoService;
 	
 	
 	@GetMapping("/")
@@ -44,5 +52,13 @@ public class WelcomeController {
 		
 		model.addAttribute("user",user);
 		return "welcome";
+	}
+	
+	@GetMapping("/home/list")
+	public String welcome(Model model, Pageable pageable) {
+		Page<Video> pages = videoService.findAll(pageable);
+		model.addAttribute("videos", pages.getContent());
+		MethodUtils.pageModel(model, pages);
+		return "/video/videos";
 	}
 }

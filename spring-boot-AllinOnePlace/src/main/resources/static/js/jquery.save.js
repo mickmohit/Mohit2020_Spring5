@@ -1,6 +1,24 @@
 $(function(){
 	/*alert("yo");*/
 	
+	$("#moveLeftBtnId").click(function() {
+		$.map($('#leftSelectionId option:selected') ,function(option) {
+			$("#rightSelectionId").append('<option value="'+option.value+'" selected>'+option.text+'</option>');
+		});  
+		$("#leftSelectionId option:selected").remove();
+	});
+	
+	$("#moveRightBtnId").click(function() {
+		$.map($('#rightSelectionId option:selected') ,function(option) {
+			$("#leftSelectionId").append('<option id="'+option.value+'">'+option.text+'</option>');
+		});  
+		$("#rightSelectionId option:selected").remove();
+	});
+	
+	
+	
+	
+	
 	$("#submitUserForm").submit(function(e){
 		e.preventDefault();
 		var frm =$("#submitUserForm");
@@ -83,6 +101,30 @@ $(function(){
 		});
 		alert(JSON.stringify(data));
 		saveRequestedData(frm, data, null);
+	});
+	
+	$("#submitCategoryForm").submit(function(e) {
+		e.preventDefault();
+		var frm = $("#submitCategoryForm");
+		var data = {};
+		$.each(this, function(i, v){
+			var input = $(v);
+			data[input.attr("name")] = input.val();
+			delete data["undefined"];
+		});
+		saveRequestedData(frm, data, "category");
+	});
+	
+	$("#submitVideoForm").submit(function(e) {
+		e.preventDefault();
+		var frm = $("#submitVideoForm");
+		var data = {};
+		$.each(this, function(i, v){
+			var input = $(v);
+			data[input.attr("name")] = input.val();
+			delete data["undefined"];
+		});
+		saveRequestedData(frm, data, "video");
 	});
 	
 });

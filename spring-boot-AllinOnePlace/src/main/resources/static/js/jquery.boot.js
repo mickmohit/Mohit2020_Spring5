@@ -16,6 +16,14 @@ $(function(){
 		modifyPassword("user/changePassword/"+$("#loginUserId").val());
 	});
 	
+	$("#videoList").click(function(){
+		fetchList("video");
+	});
+	
+	$("#categoryList").click(function(){
+		fetchList("category");
+	});
+	
 });
 
 //var pageConstant= "?page=0&size=5"; //older way of passing pagination params

@@ -46,9 +46,11 @@
 		    		<div class="collapse navbar-collapse">
 		    			<ul class="nav navbar-nav">
 		    				<li class="active"><a href="${path}"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-		    				<li><a href="javascript:void(0);"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
-		    				<li><a href="javascript:void(0);"><span class="glyphicon glyphicon-phone-alt"></span> Contact</a></li>
+		    			
 		    				<li><a href="javascript:void(0);" id="bookList"><span class="fa fa-book"></span> Book List</a></li>
+		    				<li><a href="javascript:void(0);" id="videoList"><i class="fa fa-video"></i> Video List</a></li>
+		   					<li><a href="javascript:void(0);" id="categoryList"><i class="fa fa-category"></i> Category List</a></li>
+		   					
 		    			</ul>
 		    			<ul class="nav navbar-nav navbar-right">
 							
@@ -69,6 +71,7 @@
 		    			<ul class="nav navbar-nav">
 		    				<li><a href="javascript:void(0);" id="userList"><i class="glyphicon glyphicon-user"></i> User List</a></li>
 		    				<li><a href="javascript:void(0);" id="addressList"><i class="fa fa-address-card-o"></i> Address List</a></li>
+		    				
 		   					
 		    			</ul>
 		    		</div>
