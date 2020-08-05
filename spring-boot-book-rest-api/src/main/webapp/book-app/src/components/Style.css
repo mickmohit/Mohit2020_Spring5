@@ -1,0 +1,29 @@
+.page-num  {
+		width: 45px !important;
+		border: 1px solid #17A288;
+		color: #17A288;
+		textAlign: center;
+		fontWeight: bold;
+	 };
+	 
+
+.arrow-up {
+    width: 0;
+    height: 0;
+	border: solid 5px transparent;
+    background: transparent;
+    border-bottom: solid 5px white;
+    border-top-width: 0;
+    cursor: pointer;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    background: transparent;
+    border-top: solid 5px white;
+    border-bottom-width: 0;
+    margin-top:1px;
+    cursor: pointer;
+}

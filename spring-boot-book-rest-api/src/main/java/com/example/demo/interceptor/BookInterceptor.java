@@ -24,6 +24,7 @@ public class BookInterceptor implements HandlerInterceptor {
 		if(method.equalsIgnoreCase("post") || method.equalsIgnoreCase("put")) {
 			String contentType = request.getContentType();
 			if(contentType != null && !contentType.equalsIgnoreCase("application/json")) {
+				System.out.println("contentType"+contentType);
 				flag = false;
 			} 
 		}
