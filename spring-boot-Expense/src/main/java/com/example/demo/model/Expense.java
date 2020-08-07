@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,8 +23,21 @@ public class Expense {
 	@ManyToOne
 	private Category category;
 	
+	private String location;
+	
+	@JsonIgnore
 	@ManyToOne
 	private User user;
+
+	
+	
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
 
 	public Long getId() {
 		return id;
@@ -67,8 +82,10 @@ public class Expense {
 	@Override
 	public String toString() {
 		return "Expense [id=" + id + ", expensedate=" + expensedate + ", description=" + description + ", category="
-				+ category + ", user=" + user + "]";
+				+ category + ", location=" + location + ", user=" + user + "]";
 	}
+
 	
+	Expense(){}
 	
 }
