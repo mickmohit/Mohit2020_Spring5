@@ -3,13 +3,16 @@
 <aop-project name="springBoot-social-OAUTH2"/>
 <aop-project name="springBoot-with-kafka"/>
 <aop-project name="spring-boot-AllinOnePlace"/>
+<aop-project name="spring-boot-article"/>
 <aop-project name="spring-security-with-jwt-withUserRole"/>
+<aop-project name="spring-boot-JMS-ActiveMQ-Queue"/>
 <aop-project name="spring-rest-security-demo"/>
 <aop-project name="MajorProject-UserService"/>
 <aop-project name="spring-boot-KafkaProducer"/>
 <aop-project name="spring-boot-security-OAUTH2withDefaultTokenStore"/>
 <aop-project name="spring-boot-FullStack_withReact_JPA"/>
 <aop-project name="jpa_embeddable_Embedded_demo"/>
+<aop-project name="spring-boot-book-rest-api"/>
 <aop-project name="spring-security-with-jwt"/>
 <aop-project name="spring-boot-KafkaConsumer"/>
 <aop-project name="springBoot-redis-cache"/>
@@ -18,6 +21,7 @@
 <aop-project name="jpa_many_to_many_demo"/>
 <aop-project name="jpa_one_to_many_demo"/>
 <aop-project name="spring-security-with-db"/>
+<aop-project name="spring-boot-JMS-ActiveMQ-Topic"/>
 <aop-project name="EasyNotes"/>
 <aop-project name="springBoot-redis-PubSub"/>
 <aop-project name="spring-boot-security-OAUTH2withJwtTokenStore"/>
@@ -27,6 +31,7 @@
 <aop-project name="jpa-one-to-one-demo"/>
 <aop-project name="spring-boot-security-OAUTH2withOktaAsOkta_Client"/>
 <aop-project name="demo"/>
+<aop-project name="spring-boot-Expense"/>
 <aop-project name="spring-boot-FullStack_withReact"/>
 <aop-project name="spring-boot-security-OAUTH2withWebClient"/>
 <aop-project name="jpa_composite_primary_key_demo"/>

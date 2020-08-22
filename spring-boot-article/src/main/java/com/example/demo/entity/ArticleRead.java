@@ -21,5 +21,5 @@ public class ArticleRead {
 		return "ArticleRead [articleId=" + articleId + ", timeread=" + timeread + "]";
 	}
 		
-	
+		
 }

@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.Article;
 import com.example.demo.entity.ArticleRead;
+import com.example.demo.entity.Sresponsibiltiy;
 import com.example.demo.entity.TimeToRead;
 import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.repo.ArticleRepository;
@@ -31,6 +32,8 @@ public class ArticleController {
 
 	@Autowired
     private ArticleRepository articleRepository;
+	@Autowired
+	Sresponsibiltiy sresponsibiltiy;
 	
 	@Value("${humanread.speed}")
 	private int humanreadspeed;
@@ -87,22 +90,21 @@ public class ArticleController {
         Article article = articleRepository.findById(articleId)
             .orElseThrow(() -> new ResourceNotFoundException("Article not found for this id :: " + articleId));
         
-       int word_count= MethodUtil.wordcount(article.getBody());
-       float readTime= word_count/humanreadspeed;
-        
-       //converting time into mins & secs
-        int mins = (int) readTime;
-        int seconds = (int) (60 * (readTime - mins));
-      
-        //creating response
-        ArticleRead articleRead = new ArticleRead();
-        TimeToRead timeToRead =new TimeToRead();
-        timeToRead.setMins(mins);
-        timeToRead.setSeconds(seconds);
-        articleRead.setArticleId("slug-"+Integer.toString(articleId));
-        articleRead.setTimeread(timeToRead);
-         
-        return ResponseEntity.ok().body(articleRead);
+        //ArticleRead articleRead=null;
+        Sresponsibiltiy sresponsibiltiy=null;
+        ArticleRead articleRead=sresponsibiltiy.calculateSpeed(article,humanreadspeed);
+           return ResponseEntity.ok().body(articleRead);
     }
+
+	/*
+	 * private ArticleRead calculateSpeed(int articleId, float readTime) { int mins
+	 * = (int) readTime; int seconds = (int) (60 * (readTime - mins));
+	 * 
+	 * //creating response ArticleRead articleRead = new ArticleRead(); TimeToRead
+	 * timeToRead =new TimeToRead(); timeToRead.setMins(mins);
+	 * timeToRead.setSeconds(seconds);
+	 * articleRead.setArticleId("slug-"+Integer.toString(articleId));
+	 * articleRead.setTimeread(timeToRead); return articleRead; }
+	 */
 	
 }

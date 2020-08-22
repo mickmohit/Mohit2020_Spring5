@@ -175,4 +175,9 @@
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="0"/>
 	</section>
+	<section name="ExtractMethodWizard">
+		<item key="ThrowRuntimeExceptions" value="false"/>
+		<item key="GenerateJavadoc" value="false"/>
+		<item key="AccessModifier" value="2"/>
+	</section>
 </section>
